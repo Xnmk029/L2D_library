@@ -1,0 +1,22 @@
+﻿group,name,type,file,suggestedKeys,status,reset
+face,哭泪,ToggleExpression,V1_Face_Cry.exp3.json,Ctrl+Alt+Shift+1,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,困倦,ToggleExpression,V1_Face_Sleepy.exp3.json,Ctrl+Alt+Shift+2,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,旋晕,ToggleExpression,V1_Face_Dizzy.exp3.json,Ctrl+Alt+Shift+3,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,冷脸,ToggleExpression,V1_Face_Cold.exp3.json,Ctrl+Alt+Shift+4,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,开心,ToggleExpression,V1_Face_Happy.exp3.json,Ctrl+Alt+Shift+5,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,悲伤,ToggleExpression,V1_Face_Sad.exp3.json,Ctrl+Alt+Shift+6,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,惊讶,ToggleExpression,V1_Face_Surprised.exp3.json,Ctrl+Alt+Shift+7,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,爱心瞳,ToggleExpression,V1_Face_Heart.exp3.json,Ctrl+Alt+Shift+8,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+face,桃花眼,ToggleExpression,V1_Face_Peach.exp3.json,Ctrl+Alt+Shift+9,NOT_BOUND,Clear all Expressions / turn previous face expression off before switching
+teeth,Normal,ToggleExpression,Teeth_Normal.exp3.json,Ctrl+Alt+Shift+F1,NOT_BOUND,Teeth_Normal displays style 0; deactivate all teeth expressions to fully release selector. Set host fade to 0.
+teeth,Shark,ToggleExpression,Teeth_Shark.exp3.json,Ctrl+Alt+Shift+F2,NOT_BOUND,Teeth_Normal displays style 0; deactivate all teeth expressions to fully release selector. Set host fade to 0.
+teeth,Canine,ToggleExpression,Teeth_Canine.exp3.json,Ctrl+Alt+Shift+F3,NOT_BOUND,Teeth_Normal displays style 0; deactivate all teeth expressions to fully release selector. Set host fade to 0.
+body,画面左支撑,ToggleExpression,V1_Pose_WeightLeft.exp3.json,Ctrl+Alt+Shift+Left,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,画面右支撑,ToggleExpression,V1_Pose_WeightRight.exp3.json,Ctrl+Alt+Shift+Right,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,轻俯身,ToggleExpression,V1_Pose_LeanForward.exp3.json,Ctrl+Alt+Shift+Up,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,轻后仰,ToggleExpression,V1_Pose_LeanBack.exp3.json,Ctrl+Alt+Shift+Down,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,轻侧身向画面左,ToggleExpression,V1_Pose_YawLeft.exp3.json,Ctrl+Alt+Shift+PageUp,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,轻侧身向画面右,ToggleExpression,V1_Pose_YawRight.exp3.json,Ctrl+Alt+Shift+PageDown,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+body,身体回中,ToggleExpression,V1_Pose_Neutral.exp3.json,Ctrl+Alt+Shift+Home,NOT_BOUND,"V1_Pose_Neutral holds body axes at 0; disable all body expressions to release. Leaves head, eyes, mouth, breath, physics and DizzySpin untouched."
+action,左右交替轻膝动作（非抬脚/步行）,TriggerAnimation,Body_KneeAlternate_8s.motion3.json,Ctrl+Alt+Shift+End,NOT_BOUND,"Turn all V1_Pose expressions off first, then play once. Ends with body axes at 0; default DizzySpin Idle unchanged."
+all,全部表情复位并恢复跟踪,RemoveAllExpressions,,Ctrl+Alt+Shift+Backspace,NOT_BOUND,Official VTS action. No fake Reset expression is supplied.

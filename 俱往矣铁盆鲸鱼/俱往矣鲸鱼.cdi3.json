@@ -1,0 +1,228 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "大头"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "铁盆出现"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "俱往矣..."
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼 开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼 微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼 开闭"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼 微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉 上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉 上下"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴 变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴 开闭"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转 X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "身体旋转 Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "身体旋转 Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "摇动 前发"
+		},
+		{
+			"Id": "ParamHairFront2",
+			"GroupId": "",
+			"Name": "摇动 前发"
+		},
+		{
+			"Id": "ParamHairFront3",
+			"GroupId": "",
+			"Name": "上下 前发"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "摇动 后发"
+		},
+		{
+			"Id": "ParamHairBack2",
+			"GroupId": "",
+			"Name": "摇动 后发"
+		},
+		{
+			"Id": "ParamHairBack3",
+			"GroupId": "",
+			"Name": "上下 后发"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "铁盆前后"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "铁盆晃荡"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "大肥鱼尾巴物理"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "大肥鱼尾巴物理"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "左耳朵物理"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "左耳朵物理2"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "右耳朵物理"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "右耳朵物理2"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "摇动呆毛"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "上下呆毛"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "摇动裙子"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "上下裙子"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "左右头饰"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "上下头饰"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "上下手臂1"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "上下手臂2"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "俱往矣,,,.png"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	]
+}

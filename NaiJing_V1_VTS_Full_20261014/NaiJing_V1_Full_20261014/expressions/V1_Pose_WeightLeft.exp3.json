@@ -1,0 +1,32 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.35,
+  "FadeOutTime": 0.35,
+  "Parameters": [
+    {
+      "Id": "ParamWeightShift",
+      "Value": -0.8,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamKneeFlexL",
+      "Value": 0.0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamKneeFlexR",
+      "Value": 0.0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamBodyLean",
+      "Value": 0.0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamBodyPoseYaw",
+      "Value": 0.0,
+      "Blend": "Overwrite"
+    }
+  ]
+}

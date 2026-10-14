@@ -1,0 +1,17 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.25,
+  "FadeOutTime": 0.25,
+  "Parameters": [
+    {
+      "Id": "ParamPupilJellyStrength",
+      "Value": -1.0,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamDizzyJellyStrength",
+      "Value": 0.0,
+      "Blend": "Multiply"
+    }
+  ]
+}

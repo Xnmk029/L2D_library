@@ -1,0 +1,17 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.2,
+  "FadeOutTime": 0.25,
+  "Parameters": [
+    {
+      "Id": "ParamPupilManualOverride",
+      "Value": 1,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamPupilScale",
+      "Value": 0,
+      "Blend": "Overwrite"
+    }
+  ]
+}

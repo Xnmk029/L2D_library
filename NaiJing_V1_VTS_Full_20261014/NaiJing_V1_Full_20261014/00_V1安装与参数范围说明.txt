@@ -1,0 +1,40 @@
+奶鲸 V1 安装与参数范围
+
+安装
+1. 解压最终发布包，把包含 psd2live-preview.model3.json、psd2live-preview.vtube.json、MOC 与贴图的整个模型文件夹放入 VTube Studio 的 Live2DModels 文件夹。保持子目录不变，不要只搬 MOC。
+2. 使用独立文件夹安装；不要覆盖旧模型。正式发布包会有独立 ModelID。保存旧目录即可回退。
+3. 在 VTS 选择该模型。先校准手机/摄像头，再测试眨眼、头角、嘴巴与站姿。默认沿用原 VBridger 公式和 VTS 输入增益；不要把可选 range-safe 文件替换成默认配置。
+4. 按 07_V1快速操作.txt 使用表达和动作。05_V1推荐入口_未预绑定.csv 仅建议键位，需要在 VTS 设置；未伪造预绑定热键。
+
+主动身体参数（画面方向）
+ParamWeightShift：范围 -1..1，默认0；常用-0.8画面左支撑，+0.8画面右支撑。
+ParamKneeFlexL / R：范围0..1，默认0；本包交替轻膝动作峰值0.5，所有站姿里两侧均0。L/R表示画面侧。
+ParamBodyLean：范围-10..10，默认0；常用+8轻俯身、-8轻后仰。不要误当成归一化-1..1。
+ParamBodyPoseYaw：范围-1..1，默认0；常用-0.8轻侧身向画面左、+0.8向画面右。只是有限2D姿态，不等于真实侧面旋转角度。
+身体Neutral把以上5个轴归0并保持；要释放身体控制，关闭全部V1_Pose表达。它不会清除牙型/面部组，也不接管头部追踪。
+播放Body_KneeAlternate_8s前先关闭所有V1_Pose，含Neutral。动作一次8秒，不替换默认DizzySpin Idle入口；Native实测动作期间旋晕相位暂停、结束后Idle重启；VTS对应行为待实机。
+
+7个身体表情入口（文件都在expressions子目录）
+V1_Pose_WeightLeft → expressions/V1_Pose_WeightLeft.exp3.json：画面左支撑。
+V1_Pose_WeightRight → expressions/V1_Pose_WeightRight.exp3.json：画面右支撑。
+V1_Pose_LeanForward → expressions/V1_Pose_LeanForward.exp3.json：轻俯身。
+V1_Pose_LeanBack → expressions/V1_Pose_LeanBack.exp3.json：轻后仰。
+V1_Pose_YawLeft → expressions/V1_Pose_YawLeft.exp3.json：向画面左轻侧身。
+V1_Pose_YawRight → expressions/V1_Pose_YawRight.exp3.json：向画面右轻侧身。
+V1_Pose_Neutral → expressions/V1_Pose_Neutral.exp3.json：身体独立轴回中并保持。
+在VTS表情列表一次开一个；切换先关闭前一个。普通姿态表达走expression队列，不占用motion队列。
+轻膝动作入口：V1_Actions组 → motions/Body_KneeAlternate_8s.motion3.json。先关闭上面全部7个pose，再用VTS Play Animation播放一次。结束后身体轴回0；要重新保持站姿，再开启对应pose。
+
+三牙型
+ParamTeethStyle：范围0..2，默认0；0普通，1上下鲨鱼牙，2上犬齿+普通下牙。
+Teeth表达和宿主表情组/热键淡入淡出设0。一次只保留一个牙型；彻底复位需关闭全部三个牙型表达。
+
+默认输入与功能
+原VTS眼开增益、头角增益、位置Z方向和VB公式保留。参数数值超出Core范围的旧映射不能只改输出端，否则会改变已经校准的外观。
+保留默认呼吸、物理和旋晕相位Idle。没有新增不存在的眼笑、脸红或发影关闭参数。
+多数临时表情不要标⭐；星标Customization表达可能不随Clear all被清除。
+
+测试边界
+静态检查核对实际MOC的参数、表达范围、动作控制点/段数、文件引用与CDI完整性。Native Framework测试以最终随包验收报告为准。
+云端未运行Windows VTS或VBridger宿主；真实导入、快捷键、摄像头校准、宿主表情卸载/恢复、长期帧率与显存仍需实机确认。
+可选API辅助工具不属于默认运行依赖；不安装Python、不授予API权限也能用VTS原生表情/动作功能。

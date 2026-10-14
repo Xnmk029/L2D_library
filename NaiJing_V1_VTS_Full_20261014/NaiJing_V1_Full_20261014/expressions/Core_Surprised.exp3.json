@@ -1,0 +1,62 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.18,
+  "FadeOutTime": 0.2,
+  "Parameters": [
+    {
+      "Id": "ParamBrowEmotion",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamPupilScale",
+      "Value": -0.9,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": 0.7,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": 0.7,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamEyeSquintL",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamEyeSquintR",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "Value": -0.12,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamMouthFunnel",
+      "Value": 0.25,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamEyeWideShape",
+      "Value": 1,
+      "Blend": "Add"
+    },
+    {
+      "Id": "ParamPupilManualOverride",
+      "Value": 1,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamManualEmotionOverride",
+      "Value": 1,
+      "Blend": "Overwrite"
+    }
+  ]
+}

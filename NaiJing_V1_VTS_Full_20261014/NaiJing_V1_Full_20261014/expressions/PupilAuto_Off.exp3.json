@@ -1,0 +1,12 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.2,
+  "FadeOutTime": 0.25,
+  "Parameters": [
+    {
+      "Id": "ParamPupilAutoStrength",
+      "Value": 0,
+      "Blend": "Multiply"
+    }
+  ]
+}

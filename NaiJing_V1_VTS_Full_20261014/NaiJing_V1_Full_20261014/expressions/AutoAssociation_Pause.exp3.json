@@ -1,0 +1,27 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.2,
+  "FadeOutTime": 0.2,
+  "Parameters": [
+    {
+      "Id": "ParamPeachEyes",
+      "Value": 0.0,
+      "Blend": "Multiply"
+    },
+    {
+      "Id": "ParamBrowEmotion",
+      "Value": 0.0,
+      "Blend": "Multiply"
+    },
+    {
+      "Id": "ParamPupilAutoStrength",
+      "Value": 0,
+      "Blend": "Multiply"
+    },
+    {
+      "Id": "ParamAutoEmotionStrength",
+      "Value": 0,
+      "Blend": "Multiply"
+    }
+  ]
+}

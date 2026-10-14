@@ -1,0 +1,240 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "psd2live-preview.moc3",
+    "Textures": [
+      "psd2live-preview.2048/texture_00.png",
+      "psd2live-preview.2048/texture_01.png",
+      "psd2live-preview.2048/texture_02.png",
+      "psd2live-preview.2048/texture_03.png",
+      "psd2live-preview.2048/texture_04.png",
+      "psd2live-preview.2048/texture_05.png",
+      "psd2live-preview.2048/texture_06.png",
+      "psd2live-preview.2048/texture_07.png",
+      "psd2live-preview.2048/texture_08.png",
+      "psd2live-preview.2048/texture_09.png",
+      "psd2live-preview.2048/texture_10.png",
+      "psd2live-preview.2048/texture_11.png",
+      "psd2live-preview.2048/texture_12.png",
+      "psd2live-preview.2048/texture_13.png",
+      "psd2live-preview.2048/texture_14.png",
+      "psd2live-preview.2048/texture_15.png",
+      "psd2live-preview.2048/texture_16.png",
+      "dizzy-assets/spiral-R.png",
+      "dizzy-assets/spiral-L.png",
+      "shadow-assets/Center-full-alpha.png",
+      "shadow-assets/SideR-full-alpha.png",
+      "shadow-assets/SideL-full-alpha.png",
+      "dental-assets/texture22-retired-shark.png",
+      "dental-assets/texture23-retired-canine.png",
+      "dental-assets/texture24-natural.png",
+      "dental-assets/texture25-shark.png",
+      "dental-assets/texture26-canine.png"
+    ],
+    "Physics": "psd2live-preview.physics3.json",
+    "DisplayInfo": "psd2live-preview.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "EyeMotion_Off",
+        "File": "expressions/EyeMotion_Off.exp3.json"
+      },
+      {
+        "Name": "Core_Happy",
+        "File": "expressions/Core_Happy.exp3.json"
+      },
+      {
+        "Name": "Core_Sad",
+        "File": "expressions/Core_Sad.exp3.json"
+      },
+      {
+        "Name": "Core_Surprised",
+        "File": "expressions/Core_Surprised.exp3.json"
+      },
+      {
+        "Name": "BlinkJelly_Off",
+        "File": "expressions/BlinkJelly_Off.exp3.json"
+      },
+      {
+        "Name": "PeachEyes",
+        "File": "expressions/PeachEyes.exp3.json"
+      },
+      {
+        "Name": "HeartPupils",
+        "File": "expressions/HeartPupils.exp3.json"
+      },
+      {
+        "Name": "PupilJelly_Off",
+        "File": "expressions/PupilJelly_Off.exp3.json"
+      },
+      {
+        "Name": "AutoAssociation_Pause",
+        "File": "expressions/AutoAssociation_Pause.exp3.json"
+      },
+      {
+        "Name": "FaceDisdain",
+        "File": "expressions/FaceDisdain.exp3.json"
+      },
+      {
+        "Name": "FaceDisdain_Weak",
+        "File": "expressions/FaceDisdain_Weak.exp3.json"
+      },
+      {
+        "Name": "Disdain_ManualSample",
+        "File": "expressions/Disdain_ManualSample.exp3.json"
+      },
+      {
+        "Name": "BrowLink_Off",
+        "File": "expressions/BrowLink_Off.exp3.json"
+      },
+      {
+        "Name": "JawContour_Off",
+        "File": "expressions/JawContour_Off.exp3.json"
+      },
+      {
+        "Name": "PupilAuto_Off",
+        "File": "expressions/PupilAuto_Off.exp3.json"
+      },
+      {
+        "Name": "PupilManual_Neutral",
+        "File": "expressions/PupilManual_Neutral.exp3.json"
+      },
+      {
+        "Name": "Emotion_Cry",
+        "File": "expressions/Emotion_Cry.exp3.json"
+      },
+      {
+        "Name": "Emotion_Sleepy",
+        "File": "expressions/Emotion_Sleepy.exp3.json"
+      },
+      {
+        "Name": "Emotion_Dizzy",
+        "File": "expressions/Emotion_Dizzy.exp3.json"
+      },
+      {
+        "Name": "Emotion_Cold",
+        "File": "expressions/Emotion_Cold.exp3.json"
+      },
+      {
+        "Name": "EmotionAuto_Off",
+        "File": "expressions/EmotionAuto_Off.exp3.json"
+      },
+      {
+        "Name": "Emotion_Clear",
+        "File": "expressions/Emotion_Clear.exp3.json"
+      },
+      {
+        "Name": "DizzyJelly_Off",
+        "File": "expressions/DizzyJelly_Off.exp3.json"
+      },
+      {
+        "Name": "DizzyJelly_Reference",
+        "File": "expressions/DizzyJelly_Reference.exp3.json"
+      },
+      {
+        "Name": "DizzyJelly_Strong",
+        "File": "expressions/DizzyJelly_Strong.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_WeightLeft",
+        "File": "expressions/V1_Pose_WeightLeft.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_WeightRight",
+        "File": "expressions/V1_Pose_WeightRight.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_LeanForward",
+        "File": "expressions/V1_Pose_LeanForward.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_LeanBack",
+        "File": "expressions/V1_Pose_LeanBack.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_YawLeft",
+        "File": "expressions/V1_Pose_YawLeft.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_YawRight",
+        "File": "expressions/V1_Pose_YawRight.exp3.json"
+      },
+      {
+        "Name": "V1_Pose_Neutral",
+        "File": "expressions/V1_Pose_Neutral.exp3.json"
+      },
+      {
+        "Name": "Teeth_Normal",
+        "File": "expressions/Teeth_Normal.exp3.json"
+      },
+      {
+        "Name": "Teeth_Shark",
+        "File": "expressions/Teeth_Shark.exp3.json"
+      },
+      {
+        "Name": "Teeth_Canine",
+        "File": "expressions/Teeth_Canine.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Cry",
+        "File": "expressions/V1_Face_Cry.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Sleepy",
+        "File": "expressions/V1_Face_Sleepy.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Dizzy",
+        "File": "expressions/V1_Face_Dizzy.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Cold",
+        "File": "expressions/V1_Face_Cold.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Happy",
+        "File": "expressions/V1_Face_Happy.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Sad",
+        "File": "expressions/V1_Face_Sad.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Surprised",
+        "File": "expressions/V1_Face_Surprised.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Heart",
+        "File": "expressions/V1_Face_Heart.exp3.json"
+      },
+      {
+        "Name": "V1_Face_Peach",
+        "File": "expressions/V1_Face_Peach.exp3.json"
+      }
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/DizzySpin_2s.motion3.json",
+          "FadeInTime": 0.0,
+          "FadeOutTime": 0.0
+        }
+      ],
+      "V1_Actions": [
+        {
+          "File": "motions/Body_KneeAlternate_8s.motion3.json",
+          "FadeInTime": 0.35,
+          "FadeOutTime": 0.35
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

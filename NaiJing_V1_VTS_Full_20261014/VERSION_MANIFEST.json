@@ -1,0 +1,26 @@
+{
+  "release_date_utc": "2026-10-14",
+  "package_kind": "full_self_contained_runtime",
+  "model_folder": "NaiJing_V1_Full_20261014",
+  "moc": {
+    "path": "psd2live-preview.moc3",
+    "bytes": 176535680,
+    "sha256": "43efbea7f3625ddf21eea779343ef5e72fb6233511add7f9f0f62acbe5ae4f50"
+  },
+  "native_project_companion": {
+    "file": "NaiJing_V1_PSD2Live344_NativeMotions_Compact_20261013.psd2live",
+    "bytes": 195580036,
+    "sha256": "4fc4f3befa4566a196e86a1060b421172fcb848abee1571f337c10b74f493cf3",
+    "format": "PSD2Live 3.4.4 native project",
+    "custom_44_expressions_inside_native_project": false
+  },
+  "optional_aggregation": {
+    "location": "Extras/NaiJing_表情聚合_隔离候选小文件_20261014.zip",
+    "bytes": 2642857,
+    "sha256": "c8194250a9a41c4859bb3eb5a3a2199d60c28c2ec2544b521ed42e6276f8e83b",
+    "applied_to_default_model": false,
+    "vts_host_verified": false
+  },
+  "baseline_sidecars_unchanged": 87,
+  "cheek_puff_enhancement_included": false
+}

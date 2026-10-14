@@ -1,0 +1,27 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.25,
+  "FadeOutTime": 0.3,
+  "Parameters": [
+    {
+      "Id": "ParamFaceCry",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamFaceSleepy",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamFaceDizzy",
+      "Value": 0,
+      "Blend": "Overwrite"
+    },
+    {
+      "Id": "ParamFaceDisdain",
+      "Value": 0,
+      "Blend": "Overwrite"
+    }
+  ]
+}

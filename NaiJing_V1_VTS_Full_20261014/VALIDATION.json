@@ -1,0 +1,179 @@
+{
+  "status": "PASS_SELF_CONTAINED_PACKAGE_STATIC_VALIDATION",
+  "new_checks": {
+    "runtime_exact_file_hashes": 88,
+    "unchanged_baseline_sidecars": 87,
+    "strict_json_files": 52,
+    "model3_local_references": 76,
+    "cdi_and_moc_parameter_ids": 94,
+    "expressions": 44,
+    "expression_parameter_operations": 298,
+    "motion_files": 4,
+    "active_motion_references": 2,
+    "motion_groups": [
+      "Idle",
+      "V1_Actions"
+    ],
+    "physics_groups": 20,
+    "png_crc_verified": 27,
+    "vts_parameter_bindings": 30,
+    "vts_hotkeys_prebound": 0,
+    "native_manifest_entries_checked": 270,
+    "native_motion_clips": 4,
+    "native_enabled_motion_clips": 2,
+    "native_archive_crc_checked": true
+  },
+  "prior_same_hash_validation": {
+    "core_states": 12664,
+    "static_pixel_pairs": 362,
+    "dynamic_frames_per_model": 552,
+    "dynamic_pixel_pairs": 266,
+    "native_project_official_344_cold_open_export": true
+  },
+  "limitations": [
+    "Windows VTube Studio and VBridger host were not run.",
+    "No live camera, hotkey, realtime FPS, system RAM or GPU VRAM validation.",
+    "Native project GUI interaction not tested; prior official cold-open/export applies to exactly matched project hash.",
+    "Geometry/visual validation is not pixel-lossless or a new artistic acceptance.",
+    "Optional aggregated expressions remain isolated and host-unverified.",
+    "Cheek-puff enhancement is not implemented in this package."
+  ],
+  "model_id_preserved": "339a31ded97a4218a4a2d2de99748d80",
+  "textures": [
+    {
+      "path": "psd2live-preview.2048/texture_00.png",
+      "width": 4096,
+      "height": 2048
+    },
+    {
+      "path": "psd2live-preview.2048/texture_01.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_02.png",
+      "width": 4096,
+      "height": 4096
+    },
+    {
+      "path": "psd2live-preview.2048/texture_03.png",
+      "width": 4096,
+      "height": 4096
+    },
+    {
+      "path": "psd2live-preview.2048/texture_04.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_05.png",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "psd2live-preview.2048/texture_06.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "psd2live-preview.2048/texture_07.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_08.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "psd2live-preview.2048/texture_09.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "psd2live-preview.2048/texture_10.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "psd2live-preview.2048/texture_11.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "psd2live-preview.2048/texture_12.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_13.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_14.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "psd2live-preview.2048/texture_15.png",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "path": "psd2live-preview.2048/texture_16.png",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "path": "dizzy-assets/spiral-R.png",
+      "width": 305,
+      "height": 255
+    },
+    {
+      "path": "dizzy-assets/spiral-L.png",
+      "width": 304,
+      "height": 255
+    },
+    {
+      "path": "shadow-assets/Center-full-alpha.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "shadow-assets/SideR-full-alpha.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "shadow-assets/SideL-full-alpha.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dental-assets/texture22-retired-shark.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dental-assets/texture23-retired-canine.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dental-assets/texture24-natural.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dental-assets/texture25-shark.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dental-assets/texture26-canine.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

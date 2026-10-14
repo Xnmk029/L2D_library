@@ -1,0 +1,97 @@
+{
+  "source": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024",
+  "output": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008",
+  "algorithm": "alpha-weighted block average, 8-level RGB steps, original alpha and hidden RGB preserved",
+  "files": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_light_4px\\texture_00.png",
+      "block_size": 4,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_medium_8px\\texture_00.png",
+      "block_size": 8,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_strong_16px\\texture_00.png",
+      "block_size": 16,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_light_4px\\texture_01.png",
+      "block_size": 4,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_medium_8px\\texture_01.png",
+      "block_size": 8,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\programmatic_strong_16px\\texture_01.png",
+      "block_size": 16,
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true
+    }
+  ],
+  "original_sha256": {
+    "texture_00.png": "11aeb6ae98831f8d082955e2155ace199a232d0283e196090a48ad537553e592",
+    "texture_01.png": "30bc76abf968ee778364d7b65ad8c505338a837f7f6b75a773ceb462c274f20b"
+  },
+  "imagegen": [
+    {
+      "raw": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\imagegen_raw\\texture_00.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "atlas": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\imagegen_alpha_preserved\\texture_00.png",
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true,
+      "source_pixels_fallback": 0,
+      "note": "Nearest-neighbor resize and boundary color extension; exact original alpha restored. Internal generated details may still shift."
+    },
+    {
+      "raw": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\imagegen_raw\\texture_01.png",
+      "raw_size": [
+        1254,
+        1254
+      ],
+      "atlas": "D:\\SteamLibrary\\steamapps\\common\\VTube Studio\\VTube Studio_Data\\StreamingAssets\\Live2DModels\\俱往矣铁盆鲸鱼\\俱往矣鲸鱼.1024\\pixel_variants_20261008\\imagegen_alpha_preserved\\texture_01.png",
+      "atlas_size": [
+        1024,
+        1024
+      ],
+      "alpha_equal": true,
+      "source_pixels_fallback": 16838,
+      "note": "Nearest-neighbor resize and boundary color extension; exact original alpha restored. Internal generated details may still shift."
+    }
+  ]
+}

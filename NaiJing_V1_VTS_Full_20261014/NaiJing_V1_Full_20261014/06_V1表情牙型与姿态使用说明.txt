@@ -1,0 +1,53 @@
+奶鲸 V1 侧车候选：表情、牙型、主动姿态
+
+本轮是独立配置补丁。最终模型、原贴图、physics、VB公式与默认输入增益均不在这里改动。未在Windows VTube Studio或VBridger实机测试。不要把单独侧车文件当完整模型安装。
+
+1. 原生VTS可以直接使用，不需要外置脚本
+在VTS的表情编辑器中打开“Turn Expressions on/off”。选V1_Face_开头的推荐模式，每次只保留一个。切换脸部模式前，先关闭旧模式；不确定当前状态时执行VTS的Clear all Expressions。
+推荐表情采用明确的单模式形状值，情绪模式会接管部分眉、嘴形和瞳孔大小。眼睛保留实时眨眼，并乘上该表情的开眼比例。嘴巴开合仍来自追踪。爱心/桃花只改特殊眼入口，不锁嘴形。
+
+为什么要先关闭旧项：原生VTS中多个Multiply会相乘，多个Add会相加。新的Overwrite只决定同参数的绝对值，不能卸载其他已开启表达。取消最后一个Overwrite还可能回到前一个表达。因此“当前看到一个样式”不等于旧表达已被关闭。
+
+不要把旧Core_*/Emotion_*和新V1_Face_*重复开启。旧文件保留供兼容和回滚。
+不建议把本包临时面部、牙型或姿态表达标星。若用户将某表达标记为Customization Expression（星标），Clear all Expressions可能保留它；遇到残留请在表情列表实际关闭。
+
+2. 三牙型
+Teeth_Normal=0：普通上下牙；Teeth_Shark=1：上下鲨鱼牙；Teeth_Canine=2：上犬齿、普通下牙。
+三者用同一ParamTeethStyle绝对取值。文件FadeIn/Out均0，宿主热键/表情组淡入淡出也应设0，避免从0到2的平滑过渡经过1。
+切换前关闭之前的牙型，或使用可选组切换器。Teeth_Normal能显式显示普通牙；若随后关闭Normal，而其他牙型仍活动，会重新显示前一牙型。彻底恢复默认需关闭全部三个牙型表达。
+
+3. 重置
+真正恢复自动追踪是关闭活动表达，或使用VTS官方Clear all Expressions动作。不存在一个能靠Overwrite把其它表达卸载的Reset.exp3。本包不提供会持续锁住摄像头的假重置表达。
+全清会同时取消当前姿态、牙型和普通功能开关；需要时重新选择。只想复位一个组，请关该组表达或使用可选组切换器的“组名 reset”。
+
+4. idle与physics
+默认DizzySpin_2s继续作为唯一Idle时钟；ParamBreath仍由原VTS自动呼吸控制。主动身体pose不写DizzySpin、头脸角、呼吸或physics输出，因此不用替换默认Idle。
+默认发影继续使用原模型效果。本MOC没有发影strength参数，因此本包不放一个无效的“发影关闭”表达。
+
+5. 热键
+05_V1推荐入口_未预绑定.csv列出建议键位和官方动作类型。它是建议清单，不是已经写入VTS的绑定。
+现有样例没有可核验的Hotkeys记录，官方没有公开该文件schema，因此未生成猜测的热键JSON。现有用户热键会保留。可在VTS表情菜单点击键盘图标按清单绑定，也可自行改键。
+建议全清：Ctrl+Alt+Shift+Backspace；牙型：Ctrl+Alt+Shift+F1/F2/F3；脸部：Ctrl+Alt+Shift+1到9。请避免与直播软件实际快捷键冲突。
+
+6. 可选范围安全配置
+工具目录optional/range-safe.vtube.json只供受控对照；没有进入默认运行补丁。
+它保持数学线性增益和显式硬限幅结果，但VTS的Limit Range还会影响接近边界的动态，所以不能承诺与旧摄像头表现完全一致。先保留原vtube，再在独立模型目录对比；不要把它作为另一个已验收模型文件随意放入原模型。
+
+7. 验证边界
+已做：实际MOC参数读取、表达引用/目标与范围检查、基础映射扫值、保留Idle/physics/输入/现有热键检查；可选组切换器只做mock测试。
+未做：VTS实际导入、真实键位触发、手机/摄像头信号校准、实际表情淡入淡出、长时间帧率/显存测试。本轮不宣称这些已通过。
+
+8. 有限身体姿态和一次小动作
+V1_Pose_WeightLeft/Right：画面左/右支撑，Weight=-0.8/+0.8，手动膝0。
+V1_Pose_LeanForward/Back：BodyLean=+8/-8，只轻俯身/后仰；不接管真人头角。
+V1_Pose_Neutral：身体姿态轴回0并保持。取消它可能回到尚未关闭的旧pose；要释放这组需关闭全部V1_Pose。
+姿态会将其它同组身体轴置0，每次使用一个即可。所有pose都不改嘴、眼、头角、呼吸、DizzySpin或physics输出。
+
+Body_KneeAlternate_8s：独立V1_Actions组、8秒一次动作，左膝0→0.5→0，间隔后右膝0→0.5→0，两侧不同时内扣，结尾身体轴0。是2D轻膝内移和固定鞋踝补偿，不是抬脚或行走。
+先关闭所有V1_Pose表达（Neutral也要关闭），再用VTS的Play Animation触发。表达的优先级高于一次动作，未关闭的pose可能把动作中的膝压在0。本动作不能自动卸载表达。
+建议动作快捷键Ctrl+Alt+Shift+End；仍需在VTS绑定。保留DizzySpin默认Idle，不能用本动作替换默认Idle。实际Native单motion队列测试中，8秒动作期间旋晕相位停在约1，结束后Idle从0重启并推进；不是连续并播。Windows VTS是否同样暂停/恢复仍需实机确认。请不要把保留文件入口理解为全程连续旋转。
+V1_Pose_YawLeft/Right：BodyPoseYaw=-0.8/+0.8，轻侧身向画面左/右。只是现有2D正面立绘的有限侧身，不代表真实侧面角度。建议键Ctrl+Alt+Shift+PageUp/PageDown；其它身体轴归0。
+
+9. 果冻与高光开关
+普通果冻和旋晕果冻是独立强度通道，不需要为切换爱心/桃花/旋晕而叠加多个“Off”。PupilJelly_Off会同时压低普通果冻，并用Multiply 0关闭旋晕果冻；它仍开启时，DizzyJelly_Reference/Strong不能抵消那个0。要恢复果冻，关闭PupilJelly_Off和DizzyJelly_Off，再按需要保留一个旋晕强度预设；多个预设取消最新项可能恢复旧项。
+EyeMotion_Off控制高光随动强度，不是删除C形高光图形。恢复随动要关闭该表达；本包没有新增不存在的“C高光图形开关”。这些功能表达不由仅切换face/teeth/body的可选工具自动清除；原生Clear all会同时清除未标星的功能表达。

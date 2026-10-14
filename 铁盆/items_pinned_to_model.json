@@ -1,0 +1,131 @@
+{
+    "FileMetadata": {
+        "LastSavedVTubeStudioVersion": "1.35.10",
+        "LastSavedPlatform": "Steam",
+        "LastSavedDateUTC": "Saturday, 10 October 2026, 07:47:45",
+        "LastSavedDateLocalTime": "Saturday, 10 October 2026, 15:47:45",
+        "LastSavedDateUnixMillisecondTimestamp": "1791618465147",
+        "TotalSaveCount": 1
+    },
+    "SceneName": "",
+    "SceneGroupName": "",
+    "SceneModel": "",
+    "SceneID": "",
+    "Items": [
+        {
+            "VNetJustBorrowedFrom": 0,
+            "VNetJustBorrowedFromItemID": -1,
+            "ItemName": "铁盆",
+            "ItemObjectInScene": {
+                "instanceID": -83284
+            },
+            "ItemFileName": "铁盆",
+            "ItemInstanceUUID": "403ccd5e169746daae9c766cc9104032",
+            "Selected": true,
+            "TrackingModel": true,
+            "IsAnimated": false,
+            "IsVideo": false,
+            "IsModel": true,
+            "IsWeb": false,
+            "IsCensored": false,
+            "IsFlipped": false,
+            "IsLocked": false,
+            "Smoothing": 0.0,
+            "Order": 1,
+            "FPS": -1.0,
+            "IsPinned": true,
+            "PinnedTo": "ArtMesh3",
+            "PinnedModel_Live2D": "铁盆",
+            "PinnedModel_VTS": "铁盆",
+            "PinnedModel_InternalID": "08119107008b4c09abea24aee178cfef",
+            "PinnedVertexIDs": "394 400 399 393 388 387",
+            "PinnedVertexPositions": [
+                {
+                    "x": 0.0260164737701416,
+                    "y": 0.2773359417915344,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.028178073465824128,
+                    "y": 0.25473839044570925,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.027653750032186509,
+                    "y": 0.257107138633728,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.0270867720246315,
+                    "y": 0.28185775876045229,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.02626563236117363,
+                    "y": 0.2993883490562439,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.021838977932929994,
+                    "y": 0.3020663857460022,
+                    "z": 0.0
+                }
+            ],
+            "PinnedVertexCenterOffset": {
+                "x": 0.0037001336459070446,
+                "y": -0.01110917329788208,
+                "z": 0.0
+            },
+            "Size": 0.054954346269369128,
+            "ModelScaleMultiplier": 0.006106038577854633,
+            "Rotation": 0.0,
+            "Position": {
+                "x": -0.011387274600565434,
+                "y": 0.2584902346134186,
+                "z": 0.0
+            },
+            "Group": "",
+            "Scene": "",
+            "AssetType": 6,
+            "FromWorkshop": false,
+            "FromHotkey": false,
+            "FromAPI": false,
+            "FadeTime": 0.5,
+            "Plugin": "",
+            "WebItemURL": "",
+            "WebItemUseCustomCSS": false,
+            "WebItemCustomCSS": "body {\n    background-color: rgba(0, 0, 0, 0);\n    margin: 0px auto;\n    overflow: hidden;\n}",
+            "WebItemZoomPercent": 100,
+            "WebItemAlphaMultiplier": 1.0,
+            "WebItemCropLeftRightTopBottom": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "WebItemSizeInUnityUnits": {
+                "x": 0.6000000238418579,
+                "y": 0.30000001192092898
+            },
+            "WebItemSizeInPixels": {
+                "x": 1024,
+                "y": 576
+            },
+            "WebItemMuted": false,
+            "WebItemAllowLocalURLs": false,
+            "WebItemAllowTransparentBackground": true,
+            "WebItemInteractable": true,
+            "WebItemScrollSensitivity": 0.4000000059604645,
+            "WithinModelPin_On": false,
+            "WithinModelPin_BackOn": false,
+            "WithinModelPin_Layer": -1,
+            "WithinModelPin_ArtMeshID": "<<<LAYER_SPECIAL_TOP>>>",
+            "WithinModelPin_ArtMeshIDBackLayers": "<<<LAYER_SPECIAL_BOTTOM>>>",
+            "WithinModelPin_DoNotPinToLayersAboveItem": true,
+            "WithinModelPin_SpecificPinLayer_On": false,
+            "WithinModelPin_SpecificPinLayer": "",
+            "WithinModelPin_ShowFrontBack": false,
+            "WithinModelPin_SplitLive2DItemAt": "ArtMesh3"
+        }
+    ]
+}

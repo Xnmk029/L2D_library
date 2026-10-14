@@ -1,0 +1,448 @@
+{
+  "format": "NaiJing_Full_Runtime_Manifest_v1",
+  "model_folder": "NaiJing_V1_Full_20261014",
+  "file_count": 88,
+  "total_uncompressed_bytes": 191036771,
+  "files": [
+    {
+      "path": "00_V1安装与参数范围说明.txt",
+      "bytes": 3798,
+      "sha256": "a856f381c69c0440f0daa6cfba9412a008fa2024466a53e633b2d2b55410ccb1"
+    },
+    {
+      "path": "02_表情入口与建议热键.csv",
+      "bytes": 5887,
+      "sha256": "16268e11f6a7f40eb42a8ce082880b1691789e07e258bafe26144627c0de7dc7"
+    },
+    {
+      "path": "03_VB到VTS映射清单.csv",
+      "bytes": 1901,
+      "sha256": "db2897f17a2c795ab201818ea6035d52c33b50de4af19a5aebf5af7c1c7e8acc"
+    },
+    {
+      "path": "04_V1验证范围与已知限制.txt",
+      "bytes": 2436,
+      "sha256": "90c179796e568d0cd7c29306bee4fa0f46eb591385f13c24805bfa5bdbfdfaab"
+    },
+    {
+      "path": "05_V1推荐入口_未预绑定.csv",
+      "bytes": 4164,
+      "sha256": "8bfe735b07372ef5fcd16f4095a7fbbc84dc5b10a4466d480f7c37f21db51c10"
+    },
+    {
+      "path": "06_V1表情牙型与姿态使用说明.txt",
+      "bytes": 6309,
+      "sha256": "27d2f94421d34a2b2752af7153e5fe2be5e7ddd9cf8d116f2b04cb808afbb2fb"
+    },
+    {
+      "path": "07_V1快速操作.txt",
+      "bytes": 1209,
+      "sha256": "8beb6787e603b36fada137d350e2378ecb8a8f9ae8d4fb6aaac29a5fcb7fc048"
+    },
+    {
+      "path": "VBridger_Config/VBridger_AdvancedARKit_V3.0_FaceExpressionLinksV3_Candidate_20261011.vbridger",
+      "bytes": 19319,
+      "sha256": "8c9a9bf32698e7f2bdcff61044ec6527315dbd76b091ce930b7ae16faffb1664"
+    },
+    {
+      "path": "dental-assets/texture22-retired-shark.png",
+      "bytes": 1085158,
+      "sha256": "61496d70779c45a04db0950f2a06c1ea36af6095c5a340290e597c3ccf634e95"
+    },
+    {
+      "path": "dental-assets/texture23-retired-canine.png",
+      "bytes": 1130147,
+      "sha256": "9a0e3ca6e57b418d9d3a70ae1f157889869b945dd9f822fe8d1b5cbd493b85b3"
+    },
+    {
+      "path": "dental-assets/texture24-natural.png",
+      "bytes": 1161697,
+      "sha256": "ed911e35957dc708d18a47a8d0a4408f07d53d2b3fa0a4b0ac6bdc1de8e3eb72"
+    },
+    {
+      "path": "dental-assets/texture25-shark.png",
+      "bytes": 1204335,
+      "sha256": "a9c830432fcfcd08da18ffd614fcc5ec917878e83bd1ee839a1351afb7b2945b"
+    },
+    {
+      "path": "dental-assets/texture26-canine.png",
+      "bytes": 860192,
+      "sha256": "7780e8653e8fab746441dc7739d30f9ffa09faa1a14eae11e0dcfff3c28955c7"
+    },
+    {
+      "path": "dizzy-assets/spiral-L.png",
+      "bytes": 36427,
+      "sha256": "8cc724c24d2a6ff6d67fe651cb073d28716a6870f2be20486f41c00b6ba7e77e"
+    },
+    {
+      "path": "dizzy-assets/spiral-R.png",
+      "bytes": 37265,
+      "sha256": "d144c4184adc4d46e504bb52cedace7508edfe60cae37303310bec79b0b0f9ae"
+    },
+    {
+      "path": "expressions/AutoAssociation_Pause.exp3.json",
+      "bytes": 471,
+      "sha256": "298b5ec4b4b102714104c08f6ea2b5a432b2c76ed014f11467c17862c3407428"
+    },
+    {
+      "path": "expressions/BlinkJelly_Off.exp3.json",
+      "bytes": 195,
+      "sha256": "db2e9cbfa78a3454f0b262bc0da611935638ff39322317579e4019f035e0db4a"
+    },
+    {
+      "path": "expressions/BrowLink_Off.exp3.json",
+      "bytes": 191,
+      "sha256": "e4d005d40d8f1e0c9c106dc930f3ae483bb01678501e46bb8188c9e11e9a3e2d"
+    },
+    {
+      "path": "expressions/Core_Happy.exp3.json",
+      "bytes": 1071,
+      "sha256": "c457d15896926678b4036623f16c2e95b8ecf904c2ab134b3516b777305d3c65"
+    },
+    {
+      "path": "expressions/Core_Sad.exp3.json",
+      "bytes": 1074,
+      "sha256": "76c7973b9aeffa4354f3e9be540173f1b04a80f05d393fa03b1d83ca4dd08dbd"
+    },
+    {
+      "path": "expressions/Core_Surprised.exp3.json",
+      "bytes": 1072,
+      "sha256": "6c04821118e50f42df8b6d76d6325792ae9597d5d12dbc735bc15a5d4c58c053"
+    },
+    {
+      "path": "expressions/Disdain_ManualSample.exp3.json",
+      "bytes": 612,
+      "sha256": "a2a8b49d29b8b09e626207001651577e952f49e26c0e5313e523d36eb8a91174"
+    },
+    {
+      "path": "expressions/DizzyJelly_Off.exp3.json",
+      "bytes": 199,
+      "sha256": "00a5dc35e053e4c9836d531dbc51e031ed82e0ca6398869513e10024468ec75f"
+    },
+    {
+      "path": "expressions/DizzyJelly_Reference.exp3.json",
+      "bytes": 200,
+      "sha256": "4eb138cf126bae2796957808520100815bf831e84e3522f5a54a3ba064f2a059"
+    },
+    {
+      "path": "expressions/DizzyJelly_Strong.exp3.json",
+      "bytes": 200,
+      "sha256": "efaa6c59b50631ee39ba8d51ef29fcc580f6411eb048dc5a6972991163a12df6"
+    },
+    {
+      "path": "expressions/EmotionAuto_Off.exp3.json",
+      "bytes": 197,
+      "sha256": "06cc7c3ea2269a9bd587b340d0333cc26ff87c198871b61fbfea8300609c1ae9"
+    },
+    {
+      "path": "expressions/Emotion_Clear.exp3.json",
+      "bytes": 453,
+      "sha256": "77a272211533207a294e4cbc83f4d7d1806bf6f7d18b8ece762cf7bff27dbd92"
+    },
+    {
+      "path": "expressions/Emotion_Cold.exp3.json",
+      "bytes": 1364,
+      "sha256": "34b6b767d26cfe0fe1d092293110d3a1a141e4c3a7af531db8ee490971f42b8d"
+    },
+    {
+      "path": "expressions/Emotion_Cry.exp3.json",
+      "bytes": 1368,
+      "sha256": "9e4c37eeb2b9c119193abbdbe157e9bdaa922930db5617c1b97797edf426e573"
+    },
+    {
+      "path": "expressions/Emotion_Dizzy.exp3.json",
+      "bytes": 1464,
+      "sha256": "3ef9191c294334eafd5223d7787c3bbfa566f960e429182da93902f6736cda0d"
+    },
+    {
+      "path": "expressions/Emotion_Sleepy.exp3.json",
+      "bytes": 1366,
+      "sha256": "3a7694ad2fc19b442473b39e13497877d13a44ab27f06756fb7cdffe13e89c28"
+    },
+    {
+      "path": "expressions/EyeMotion_Off.exp3.json",
+      "bytes": 193,
+      "sha256": "01315c3f72d4c52014eb908393f043f9b4ae0d7b43ffafc919da615981850600"
+    },
+    {
+      "path": "expressions/FaceDisdain.exp3.json",
+      "bytes": 183,
+      "sha256": "8b960f3e97dbbf4ae368af6495fe5917b950b76bf74f2484cd95e97bcfd07c47"
+    },
+    {
+      "path": "expressions/FaceDisdain_Weak.exp3.json",
+      "bytes": 186,
+      "sha256": "94e0631b09426ee05cfde56b8263d1bf449f07dd7529e2e00c6bd68c71debeb9"
+    },
+    {
+      "path": "expressions/HeartPupils.exp3.json",
+      "bytes": 187,
+      "sha256": "48b2897bc2c9b6a41814088f8cacd05344a0c54b038194a6fc1fe9081ba4e810"
+    },
+    {
+      "path": "expressions/JawContour_Off.exp3.json",
+      "bytes": 193,
+      "sha256": "aa28d2a7aa1f39c509ef4cc7218ceb90c578599a316be7c8a10d139e9e509a0a"
+    },
+    {
+      "path": "expressions/PeachEyes.exp3.json",
+      "bytes": 185,
+      "sha256": "cf41eaa6600f205de077a4161ba8d41f77c694b347f0bc13f65dd4f69c5e97ac"
+    },
+    {
+      "path": "expressions/PupilAuto_Off.exp3.json",
+      "bytes": 195,
+      "sha256": "217f6782fc8a53df39014fbc390c60d61e2907758baa8fb4c220badb96d8bc30"
+    },
+    {
+      "path": "expressions/PupilJelly_Off.exp3.json",
+      "bytes": 293,
+      "sha256": "edd92fef4484eda1917464ea511555987af708272b83a87128ce79bf74dfa17b"
+    },
+    {
+      "path": "expressions/PupilManual_Neutral.exp3.json",
+      "bytes": 287,
+      "sha256": "b979c3d81837928bdf373b68ffcbfb72158be73b60653935e49244349c627d45"
+    },
+    {
+      "path": "expressions/Teeth_Canine.exp3.json",
+      "bytes": 184,
+      "sha256": "01065dc04c3dae14339ef4949c0c09b9b462eb47bdb06b3219970a583aed8ccb"
+    },
+    {
+      "path": "expressions/Teeth_Normal.exp3.json",
+      "bytes": 184,
+      "sha256": "3f130cc2c6e01f23296bead23fed0b6fb8f742ba408f99c049ef8a40dcd081b9"
+    },
+    {
+      "path": "expressions/Teeth_Shark.exp3.json",
+      "bytes": 184,
+      "sha256": "da9390da93f151326c8908e512d82e84c0a142da35a02b72e0d873dab0f6b2c8"
+    },
+    {
+      "path": "expressions/V1_Face_Cold.exp3.json",
+      "bytes": 1811,
+      "sha256": "92b0fdbcb3598f207431e0f382ed0568a83a8d7407290331a961b718d2023e13"
+    },
+    {
+      "path": "expressions/V1_Face_Cry.exp3.json",
+      "bytes": 1815,
+      "sha256": "c6b0afa9960b09454e613373c06f51922f2c9bbe70f69cd0ce4a8aaa906dca1b"
+    },
+    {
+      "path": "expressions/V1_Face_Dizzy.exp3.json",
+      "bytes": 1813,
+      "sha256": "a599f9f306bf70b7189f34546f6ad5fb2032d5a291817f96e75c539ddaff2560"
+    },
+    {
+      "path": "expressions/V1_Face_Happy.exp3.json",
+      "bytes": 1817,
+      "sha256": "53d5e00ed96369d8d63c0934e7e7b113d18e3aef3c2aba77b4f679f57afa50b4"
+    },
+    {
+      "path": "expressions/V1_Face_Heart.exp3.json",
+      "bytes": 367,
+      "sha256": "2d3b935312221f67aa66f5df6b67ca17c64163a426d72a5cb896699816fa8316"
+    },
+    {
+      "path": "expressions/V1_Face_Peach.exp3.json",
+      "bytes": 367,
+      "sha256": "4eead0c9709dba011c15c8445368f2eaa0191ad7d25f993ab81f6f602f7b8dc8"
+    },
+    {
+      "path": "expressions/V1_Face_Sad.exp3.json",
+      "bytes": 1820,
+      "sha256": "36791337fc0ee7fce162d5d9d07a55c8293e93f2787cdf825036ddc7229cfd17"
+    },
+    {
+      "path": "expressions/V1_Face_Sleepy.exp3.json",
+      "bytes": 1813,
+      "sha256": "57086862339810ae449a80addd615c29737a7f854d7e31937f08395fc4f972d2"
+    },
+    {
+      "path": "expressions/V1_Face_Surprised.exp3.json",
+      "bytes": 1812,
+      "sha256": "207977ae613306e4fd09dc156571996c80a4d624a824788892e99bdec764a79c"
+    },
+    {
+      "path": "expressions/V1_Pose_LeanBack.exp3.json",
+      "bytes": 553,
+      "sha256": "8fcebf64bb0c29c074df3e391a952f7f8aaf5f1dbd2c769321075a6baba50b5c"
+    },
+    {
+      "path": "expressions/V1_Pose_LeanForward.exp3.json",
+      "bytes": 552,
+      "sha256": "6c46c980279ce66eab667771a84dc7d7bead6b81d027bf6d408879ee57a34147"
+    },
+    {
+      "path": "expressions/V1_Pose_Neutral.exp3.json",
+      "bytes": 554,
+      "sha256": "3917323104eedaa555bed3a371e6a08478b59ed57e10df2642cceba9cb6b1df6"
+    },
+    {
+      "path": "expressions/V1_Pose_WeightLeft.exp3.json",
+      "bytes": 555,
+      "sha256": "054fa960f8f6a92a2b95ef8ad6fa6823b46f8d14fc4a40b1bbeaed684eaa25df"
+    },
+    {
+      "path": "expressions/V1_Pose_WeightRight.exp3.json",
+      "bytes": 554,
+      "sha256": "ae0c973b6659f0690379f2d516609c5ed54250b69a571203e3b9942ea9b29cce"
+    },
+    {
+      "path": "expressions/V1_Pose_YawLeft.exp3.json",
+      "bytes": 555,
+      "sha256": "d2bd7f90f3abf2331629cc1bb8fd35bea0bb501fee90b78a1364b2dc469fc047"
+    },
+    {
+      "path": "expressions/V1_Pose_YawRight.exp3.json",
+      "bytes": 554,
+      "sha256": "511dcf2d8ec1d0bce69776435b75d6d0c32fca195181b7c4e5b7ff859bf34041"
+    },
+    {
+      "path": "motions/Body_KneeAlternate_8s.motion3.json",
+      "bytes": 1976,
+      "sha256": "0bef70323e3f9a0717c8e732ec6f52962232de1f89fb205912506254e7508c2e"
+    },
+    {
+      "path": "motions/DizzySpin_1.5s.motion3.json",
+      "bytes": 501,
+      "sha256": "7423c5b8c61210ca68fad560159c329f4e80b2598df6ac335ba4642b74330672"
+    },
+    {
+      "path": "motions/DizzySpin_2s.motion3.json",
+      "bytes": 501,
+      "sha256": "3d2ae6cb8f4006b54b4a5620438b4c60890879e8139fe42f95fcf9aeb5784af1"
+    },
+    {
+      "path": "motions/DizzySpin_3s.motion3.json",
+      "bytes": 501,
+      "sha256": "d83b01a526e59abcd5999c68b70cd8dd3fabe757ffaf3e7a6d896132d53e3043"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_00.png",
+      "bytes": 1689884,
+      "sha256": "ad9736f35a2d1405ab6ac4cc25ba57d975db4871a002526a535e68a2d588c46d"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_01.png",
+      "bytes": 1071932,
+      "sha256": "7509be8a2401e39255ba2ec4540d78fee2b2ebac3c4fc38972b50bc80ec51aa6"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_02.png",
+      "bytes": 97497,
+      "sha256": "1dd4a38827fcc3a0cc10e8a8e042862eaed27c9ecb641ab0e339632b3fce5024"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_03.png",
+      "bytes": 2330630,
+      "sha256": "8eae6eda838ce0c7516b3ffa0af12441387406f15b6b13166283f80c53161f56"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_04.png",
+      "bytes": 221076,
+      "sha256": "79ad384495687b5177619e0ca8bff3c4301420ffa786e5c3e5eb358afa42a448"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_05.png",
+      "bytes": 695695,
+      "sha256": "978aece170ae8bb1bf8a3f424dd048cccc3b91b537261a316239f9f959292241"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_06.png",
+      "bytes": 1534136,
+      "sha256": "805b95520f5b7fed9ffa9ac57e54b48de756ad3bb506b7a74c7dab29edd18a88"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_07.png",
+      "bytes": 336301,
+      "sha256": "3973878a3fac44ea6ad6c073e836c4f9dbf525929bb503c661275eb47bd4be79"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_08.png",
+      "bytes": 138000,
+      "sha256": "57ad3718593a90f2c59c7c49f3de99d495b42796308715d21c36fff16eaba55f"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_09.png",
+      "bytes": 100041,
+      "sha256": "0037cf0487c8cafd0496f6893ac919dba0159383862c58c9df00c6e5375384d6"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_10.png",
+      "bytes": 85591,
+      "sha256": "ca3c876e7ce4ae3b4a43a2d6cf50fd9e208884cadab21f87ec129099de5a06b1"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_11.png",
+      "bytes": 82691,
+      "sha256": "b7557da814e94334359cb0a177228e4a3c8c4d3cd7f41ba998adc903a9976bd3"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_12.png",
+      "bytes": 196905,
+      "sha256": "3f9945dc89299f79e63e9df1b0af85fae12a9637593f100df201c24cffe3d7e6"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_13.png",
+      "bytes": 8829,
+      "sha256": "38b192fd935813ea5507bf895fe3061891c1b7ab3be99fd4c40611a6fb1e7785"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_14.png",
+      "bytes": 5580,
+      "sha256": "eba82ef2a6f598d9dabd5097cc79a828f422c5e39a0c3a7bcd9003a38be21e3c"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_15.png",
+      "bytes": 70,
+      "sha256": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+    },
+    {
+      "path": "psd2live-preview.2048/texture_16.png",
+      "bytes": 70,
+      "sha256": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+    },
+    {
+      "path": "psd2live-preview.cdi3.json",
+      "bytes": 19651,
+      "sha256": "fd1262758c36b307c0cc7e175805e9465ac48b2e424d415d5fba71c9246504d2"
+    },
+    {
+      "path": "psd2live-preview.moc3",
+      "bytes": 176535680,
+      "sha256": "43efbea7f3625ddf21eea779343ef5e72fb6233511add7f9f0f62acbe5ae4f50"
+    },
+    {
+      "path": "psd2live-preview.model3.json",
+      "bytes": 6608,
+      "sha256": "dca9ae1384ba66db9a8aa18d4ba8aed90a27287cb12535ecd2e93606b0877dd6"
+    },
+    {
+      "path": "psd2live-preview.physics3.json",
+      "bytes": 35121,
+      "sha256": "e83b5794e60a89ef5da49c0cc77c8a212fabc47e368db4ad1d6e510f137bea27"
+    },
+    {
+      "path": "psd2live-preview.vtube.json",
+      "bytes": 15409,
+      "sha256": "3fbc15ec61e84b42c8a3fe3aae9eda4ae5de6d73e8b932f075e16a435911c686"
+    },
+    {
+      "path": "shadow-assets/Center-full-alpha.png",
+      "bytes": 73906,
+      "sha256": "8db07a87994cbd2e89fdbcd0645d358578eaecf331b47baa2fd4fa5ac629ad04"
+    },
+    {
+      "path": "shadow-assets/SideL-full-alpha.png",
+      "bytes": 76364,
+      "sha256": "c28ed3eaa86ebc59613091c50331b06e0bfc6328294ca6f853982ebe7cc1f5a1"
+    },
+    {
+      "path": "shadow-assets/SideR-full-alpha.png",
+      "bytes": 84118,
+      "sha256": "c503067d0e2913a4877167016ef9f296c08ec36c58b17df8fe7323b1aec754f3"
+    }
+  ]
+}

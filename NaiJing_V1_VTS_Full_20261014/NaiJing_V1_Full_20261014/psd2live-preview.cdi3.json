@@ -1,0 +1,922 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "ParamMouthShrug",
+      "GroupId": "",
+      "Name": "Mouth Shrug"
+    },
+    {
+      "Id": "ParamEyeSquintL",
+      "GroupId": "",
+      "Name": "Eye Squint L"
+    },
+    {
+      "Id": "ParamEyeSquintR",
+      "GroupId": "",
+      "Name": "Eye Squint R"
+    },
+    {
+      "Id": "ParamCheekPuff",
+      "GroupId": "",
+      "Name": "Cheek Puff"
+    },
+    {
+      "Id": "ParamMouthX",
+      "GroupId": "",
+      "Name": "Mouth X"
+    },
+    {
+      "Id": "ParamMouthFunnel",
+      "GroupId": "",
+      "Name": "Mouth Funnel"
+    },
+    {
+      "Id": "ParamMouthPucker",
+      "GroupId": "",
+      "Name": "Mouth Pucker"
+    },
+    {
+      "Id": "ParamMouthPressLipOpen",
+      "GroupId": "",
+      "Name": "Press Lip Open"
+    },
+    {
+      "Id": "ParamJawOpenB",
+      "GroupId": "",
+      "Name": "Jaw Open"
+    },
+    {
+      "Id": "ParamTongueOut",
+      "GroupId": "",
+      "Name": "Tongue Out"
+    },
+    {
+      "Id": "ParamAngleX",
+      "GroupId": "",
+      "Name": "Angle X"
+    },
+    {
+      "Id": "ParamAngleY",
+      "GroupId": "",
+      "Name": "Angle Y"
+    },
+    {
+      "Id": "ParamAngleZ",
+      "GroupId": "",
+      "Name": "Angle Z"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "Left Eye Open"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "Right Eye Open"
+    },
+    {
+      "Id": "ParamEyeBallX",
+      "GroupId": "",
+      "Name": "EyeBall X"
+    },
+    {
+      "Id": "ParamEyeBallY",
+      "GroupId": "",
+      "Name": "EyeBall Y"
+    },
+    {
+      "Id": "ParamEyeBallForm",
+      "GroupId": "",
+      "Name": "Eye Jelly"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "GroupId": "",
+      "Name": "Left Brow Y"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "GroupId": "",
+      "Name": "Right Brow Y"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "GroupId": "",
+      "Name": "Mouth Form"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "Mouth Open"
+    },
+    {
+      "Id": "ParamBodyAngleX",
+      "GroupId": "",
+      "Name": "Body Angle X"
+    },
+    {
+      "Id": "ParamBodyAngleY",
+      "GroupId": "",
+      "Name": "Body Angle Y"
+    },
+    {
+      "Id": "ParamBodyAngleZ",
+      "GroupId": "",
+      "Name": "Body Angle Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "Breath"
+    },
+    {
+      "Id": "ParamHairFront",
+      "GroupId": "",
+      "Name": "Legacy inactive: Front Hair Sway"
+    },
+    {
+      "Id": "ParamHairBack",
+      "GroupId": "",
+      "Name": "Legacy inactive: Back Hair Sway"
+    },
+    {
+      "Id": "BoatNative_TongueLowHeadClearance",
+      "GroupId": "",
+      "Name": "Tongue low-head clearance"
+    },
+    {
+      "Id": "ParamArmRWrist",
+      "GroupId": "",
+      "Name": "Viewer R wrist subtle bend"
+    },
+    {
+      "Id": "ParamArmRElbow",
+      "GroupId": "",
+      "Name": "Viewer R elbow small bend"
+    },
+    {
+      "Id": "ParamArmRShoulder",
+      "GroupId": "",
+      "Name": "Viewer R shoulder small lift"
+    },
+    {
+      "Id": "ParamArmLWrist",
+      "GroupId": "",
+      "Name": "Viewer L wrist subtle bend"
+    },
+    {
+      "Id": "ParamArmLElbow",
+      "GroupId": "",
+      "Name": "Viewer L elbow small bend"
+    },
+    {
+      "Id": "ParamArmLShoulder",
+      "GroupId": "",
+      "Name": "Viewer L shoulder small lift"
+    },
+    {
+      "Id": "ParamBodyLean",
+      "GroupId": "",
+      "Name": "身体轻俯仰：正值俯身，负值后仰"
+    },
+    {
+      "Id": "ParamProportion",
+      "GroupId": "",
+      "Name": "Legacy inactive: Proportion (Chibi)"
+    },
+    {
+      "Id": "ParamCoatSway",
+      "GroupId": "",
+      "Name": "ParamCoatSway"
+    },
+    {
+      "Id": "ParamLegL",
+      "GroupId": "",
+      "Name": "ParamLegL"
+    },
+    {
+      "Id": "ParamLegR",
+      "GroupId": "",
+      "Name": "ParamLegR"
+    },
+    {
+      "Id": "ParamSeedHairFrontL",
+      "GroupId": "",
+      "Name": "左前发及两条侧U"
+    },
+    {
+      "Id": "ParamSeedHairFrontR",
+      "GroupId": "",
+      "Name": "右前发与原鲸鱼夹"
+    },
+    {
+      "Id": "ParamSeedHairCenter",
+      "GroupId": "",
+      "Name": "中央刘海"
+    },
+    {
+      "Id": "ParamSeedHairBack",
+      "GroupId": "",
+      "Name": "后发"
+    },
+    {
+      "Id": "ParamSeedHairTop",
+      "GroupId": "",
+      "Name": "顶部环与根影"
+    },
+    {
+      "Id": "ParamSeedHairFrontRTip",
+      "GroupId": "",
+      "Name": "ParamSeedHairFrontRTip"
+    },
+    {
+      "Id": "ParamSeedHairTopTip",
+      "GroupId": "",
+      "Name": "ParamSeedHairTopTip"
+    },
+    {
+      "Id": "ParamSeedHairCenterTip",
+      "GroupId": "",
+      "Name": "ParamSeedHairCenterTip"
+    },
+    {
+      "Id": "ParamSeedHairFrontLTip",
+      "GroupId": "",
+      "Name": "ParamSeedHairFrontLTip"
+    },
+    {
+      "Id": "ParamSeedHairFrontLPitch",
+      "GroupId": "",
+      "Name": "ParamSeedHairFrontLPitch"
+    },
+    {
+      "Id": "ParamSeedHairBackTip",
+      "GroupId": "",
+      "Name": "ParamSeedHairBackTip"
+    },
+    {
+      "Id": "ParamSeedHairBackPitch",
+      "GroupId": "",
+      "Name": "ParamSeedHairBackPitch"
+    },
+    {
+      "Id": "ParamSeedHairCenterPitch",
+      "GroupId": "",
+      "Name": "ParamSeedHairCenterPitch"
+    },
+    {
+      "Id": "ParamSeedHairFrontRPitch",
+      "GroupId": "",
+      "Name": "ParamSeedHairFrontRPitch"
+    },
+    {
+      "Id": "ParamSeedHairTopPitch",
+      "GroupId": "",
+      "Name": "ParamSeedHairTopPitch"
+    },
+    {
+      "Id": "ParamEyeHighlightLagX",
+      "GroupId": "",
+      "Name": "Eye secondary highlight inertia X"
+    },
+    {
+      "Id": "ParamEyeHighlightLagY",
+      "GroupId": "",
+      "Name": "Eye secondary highlight inertia Y"
+    },
+    {
+      "Id": "ParamEyeMotionStrength",
+      "GroupId": "",
+      "Name": "Eye motion comfort (Off 0 / Low .35 / Standard 1)"
+    },
+    {
+      "Id": "ParamPupilScale",
+      "GroupId": "",
+      "Name": "Pupil scale expression"
+    },
+    {
+      "Id": "ParamBrowEmotion",
+      "GroupId": "",
+      "Name": "Brow emotional shape (expression only)"
+    },
+    {
+      "Id": "ParamEyeWideShape",
+      "GroupId": "",
+      "Name": "Surprised eye shape (expression only; closes with blink)"
+    },
+    {
+      "Id": "ParamEyeMainHighlightLagX",
+      "GroupId": "",
+      "Name": "Main highlight independent lag X"
+    },
+    {
+      "Id": "ParamEyeMainHighlightLagY",
+      "GroupId": "",
+      "Name": "Main highlight independent lag Y"
+    },
+    {
+      "Id": "ParamBlinkJellyL",
+      "GroupId": "",
+      "Name": "ParamBlinkJellyL"
+    },
+    {
+      "Id": "ParamBlinkJellyR",
+      "GroupId": "",
+      "Name": "ParamBlinkJellyR"
+    },
+    {
+      "Id": "ParamBlinkJellyStrength",
+      "GroupId": "",
+      "Name": "ParamBlinkJellyStrength"
+    },
+    {
+      "Id": "ParamPeachEyes",
+      "GroupId": "",
+      "Name": "桃花眼（独立开关）"
+    },
+    {
+      "Id": "ParamHeartPupils",
+      "GroupId": "",
+      "Name": "爱心瞳孔（独立开关）"
+    },
+    {
+      "Id": "ParamPupilJellyL",
+      "GroupId": "",
+      "Name": "ParamPupilJellyL"
+    },
+    {
+      "Id": "ParamPupilJellyR",
+      "GroupId": "",
+      "Name": "ParamPupilJellyR"
+    },
+    {
+      "Id": "ParamPupilJellyStrength",
+      "GroupId": "",
+      "Name": "ParamPupilJellyStrength"
+    },
+    {
+      "Id": "ParamFaceDisdain",
+      "GroupId": "",
+      "Name": "嫌弃上脸阴影"
+    },
+    {
+      "Id": "ParamBrowLinkStrength",
+      "GroupId": "",
+      "Name": "眉形与眼睑联动强度"
+    },
+    {
+      "Id": "ParamJawContourStrength",
+      "GroupId": "",
+      "Name": "局部下巴响应强度"
+    },
+    {
+      "Id": "ParamEyeWideTrackL",
+      "GroupId": "",
+      "Name": "Wide tracking L (candidate separate VB)"
+    },
+    {
+      "Id": "ParamEyeWideTrackR",
+      "GroupId": "",
+      "Name": "Wide tracking R (candidate separate VB)"
+    },
+    {
+      "Id": "ParamPupilAutoStrength",
+      "GroupId": "",
+      "Name": "自动缩瞳强度（候选）"
+    },
+    {
+      "Id": "ParamPupilManualOverride",
+      "GroupId": "",
+      "Name": "手动瞳孔优先"
+    },
+    {
+      "Id": "ParamColdFaceTrack",
+      "GroupId": "",
+      "Name": "真实Brow/Squint组合冷脸候选"
+    },
+    {
+      "Id": "ParamAutoEmotionStrength",
+      "GroupId": "",
+      "Name": "自动冷脸强度"
+    },
+    {
+      "Id": "ParamManualEmotionOverride",
+      "GroupId": "",
+      "Name": "手动表情优先"
+    },
+    {
+      "Id": "ParamFaceCry",
+      "GroupId": "",
+      "Name": "主动哭泪"
+    },
+    {
+      "Id": "ParamFaceSleepy",
+      "GroupId": "",
+      "Name": "主动困倦辅助"
+    },
+    {
+      "Id": "ParamFaceDizzy",
+      "GroupId": "",
+      "Name": "主动晕头旋纹"
+    },
+    {
+      "Id": "ParamDizzySpin",
+      "GroupId": "",
+      "Name": "头晕旋纹旋转相位"
+    },
+    {
+      "Id": "ParamDizzyJellyStrength",
+      "GroupId": "",
+      "Name": "头晕眨眼果冻强度"
+    },
+    {
+      "Id": "ParamDizzyJellyR",
+      "GroupId": "",
+      "Name": "头晕右瞳孔果冻物理"
+    },
+    {
+      "Id": "ParamDizzyJellyL",
+      "GroupId": "",
+      "Name": "头晕左瞳孔果冻物理"
+    },
+    {
+      "Id": "ParamBrowThroughOpacity",
+      "GroupId": "",
+      "Name": "眉毛前发透视浓度（候选默认0.3）"
+    },
+    {
+      "Id": "ParamKneeFlexL",
+      "GroupId": "",
+      "Name": "画面左膝轻内移（鞋固定）"
+    },
+    {
+      "Id": "ParamKneeFlexR",
+      "GroupId": "",
+      "Name": "画面右膝轻内移（鞋固定）"
+    },
+    {
+      "Id": "ParamWeightShift",
+      "GroupId": "",
+      "Name": "重心：负值画面左支撑，正值画面右支撑"
+    },
+    {
+      "Id": "ParamBodyPoseYaw",
+      "GroupId": "",
+      "Name": "身体轻侧身：负值画面左，正值画面右"
+    },
+    {
+      "Id": "ParamTeethStyle",
+      "GroupId": "",
+      "Name": "牙型：0普通 / 1鲨鱼 / 2犬齿"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "PartHead",
+      "Name": "Head"
+    },
+    {
+      "Id": "PartHairBack",
+      "Name": "Back Hair"
+    },
+    {
+      "Id": "PartFace",
+      "Name": "Face"
+    },
+    {
+      "Id": "PartHairFront",
+      "Name": "Front Hair"
+    },
+    {
+      "Id": "PartHeadAccessories",
+      "Name": "Head Accessories"
+    },
+    {
+      "Id": "PartExtra",
+      "Name": "Extra"
+    },
+    {
+      "Id": "PartBody",
+      "Name": "Body"
+    },
+    {
+      "Id": "NaiJingFullBodyParts",
+      "Name": "原衣全身与四肢"
+    }
+  ],
+  "CombinedParameters": [
+    [
+      "ParamAngleX",
+      "ParamAngleY"
+    ],
+    [
+      "ParamEyeBallX",
+      "ParamEyeBallY"
+    ],
+    [
+      "ParamBodyAngleX",
+      "ParamBodyAngleY"
+    ]
+  ],
+  "Drawables": [
+    {
+      "Id": "Body_11_NeckwearApproved",
+      "Name": "11_NeckwearApproved"
+    },
+    {
+      "Id": "Body_11_NeckwearFilterSeam",
+      "Name": "Neckwear internal filter seam overlap"
+    },
+    {
+      "Id": "Body_10_NeckApprovedSkin",
+      "Name": "10_NeckApprovedSkin"
+    },
+    {
+      "Id": "Body_20_TorsoPelvis",
+      "Name": "20_TorsoPelvis"
+    },
+    {
+      "Id": "Body_32_LegViewerRight",
+      "Name": "32_LegViewerRight"
+    },
+    {
+      "Id": "Body_31_LegViewerLeft",
+      "Name": "31_LegViewerLeft"
+    },
+    {
+      "Id": "Body_23_CoatBack",
+      "Name": "23_CoatBack"
+    },
+    {
+      "Id": "Body_22_CoatLowerR",
+      "Name": "22_CoatLowerR"
+    },
+    {
+      "Id": "Body_21_CoatLowerL",
+      "Name": "21_CoatLowerL"
+    },
+    {
+      "Id": "Body_09_HiddenOriginalNeckBacking",
+      "Name": "09_HiddenOriginalNeckBacking"
+    },
+    {
+      "Id": "ArtMeshLayer5",
+      "Name": "11_ViewerRightClothedArm"
+    },
+    {
+      "Id": "ArtMeshLayer4",
+      "Name": "14_ViewerRightHand"
+    },
+    {
+      "Id": "ArtMeshLayer3",
+      "Name": "01_ContinuousClothedArm"
+    },
+    {
+      "Id": "ArtMeshLayer2",
+      "Name": "04_HandVisible"
+    },
+    {
+      "Id": "FunnelOnset_UnionMask",
+      "Name": "Funnel onset source-material union window"
+    },
+    {
+      "Id": "ArtMeshLayer",
+      "Name": "funnel eye"
+    },
+    {
+      "Id": "ArtMeshFrontHair2",
+      "Name": "Ahoge / 呆毛"
+    },
+    {
+      "Id": "NaiHair_R_rear_blue_fan",
+      "Name": "后方外翻蓝梢群可见面"
+    },
+    {
+      "Id": "NaiHair_R_inner_leaf",
+      "Name": "内叶可见面（含根部灰紫阴面）"
+    },
+    {
+      "Id": "NaiHair_R_U_long",
+      "Name": "长卷细蓝U的下行腿与回钩（含上方连接叶）"
+    },
+    {
+      "Id": "NaiHair_R_U_short",
+      "Name": "U内部短蓝弧横桥"
+    },
+    {
+      "Id": "NaiHair_R_outer_leaf",
+      "Name": "前方外叶与尚未可靠拆开的根部、细叶"
+    },
+    {
+      "Id": "ArtMeshFrontHairL3",
+      "Name": "front hair 2-l"
+    },
+    {
+      "Id": "ArtMeshFrontHairR",
+      "Name": "front hair shadow 2-r"
+    },
+    {
+      "Id": "ArtMeshFrontHairL2",
+      "Name": "front hair shadow 2-l"
+    },
+    {
+      "Id": "ArtMeshFrontHair",
+      "Name": "front hair 1"
+    },
+    {
+      "Id": "ArtMeshFrontHairL",
+      "Name": "Whale clip / 鲸鱼发夹"
+    },
+    {
+      "Id": "ArtMeshBackHair2",
+      "Name": "Main back hair / 主后发"
+    },
+    {
+      "Id": "ArtMeshBackHair",
+      "Name": "back hair shadow ahoge"
+    },
+    {
+      "Id": "BoatNative_ExternalTongueLipMask",
+      "Name": "External tongue lip mask driven by new upper lip"
+    },
+    {
+      "Id": "BoatNative_OriginalLowerTeeth",
+      "Name": "Original lower teeth through boat aperture"
+    },
+    {
+      "Id": "BoatNative_OriginalUpperTeeth",
+      "Name": "Original upper teeth through boat aperture"
+    },
+    {
+      "Id": "BoatNative_OriginalInteriorTongue",
+      "Name": "Original short interior tongue through boat aperture"
+    },
+    {
+      "Id": "BoatNative_OriginalCavity",
+      "Name": "Boat cavity from original painted source"
+    },
+    {
+      "Id": "BoatNative_ApertureMask",
+      "Name": "Boat aperture driven by new lip inner edges"
+    },
+    {
+      "Id": "BoatNativeStatic_3",
+      "Name": "Boat teeth"
+    },
+    {
+      "Id": "BoatNativeStatic_2",
+      "Name": "Boat lower lip and corners"
+    },
+    {
+      "Id": "BoatNativeStatic_1",
+      "Name": "Boat upper lip"
+    },
+    {
+      "Id": "ArtMeshEars",
+      "Name": "ears"
+    },
+    {
+      "Id": "ArtMeshFace",
+      "Name": "face"
+    },
+    {
+      "Id": "ArtMeshEyewhiteR",
+      "Name": "eyewhite-r"
+    },
+    {
+      "Id": "ArtMeshIridesR",
+      "Name": "irides-r"
+    },
+    {
+      "Id": "ArtMeshEyelashR2",
+      "Name": "eyelash lower-r"
+    },
+    {
+      "Id": "ArtMeshEyelashR",
+      "Name": "eyelash-r"
+    },
+    {
+      "Id": "ArtMeshEyeCloseR",
+      "Name": "eye close-r"
+    },
+    {
+      "Id": "ArtMeshEyewhiteL",
+      "Name": "eyewhite-l"
+    },
+    {
+      "Id": "ArtMeshIridesL",
+      "Name": "irides-l"
+    },
+    {
+      "Id": "ArtMeshEyelashL2",
+      "Name": "eyelash lower-l"
+    },
+    {
+      "Id": "ArtMeshEyelashL",
+      "Name": "eyelash-l"
+    },
+    {
+      "Id": "ArtMeshEyeCloseL",
+      "Name": "eye close-l"
+    },
+    {
+      "Id": "ArtMeshMouthClose",
+      "Name": "mouth close"
+    },
+    {
+      "Id": "ArtMeshTongue2",
+      "Name": "tongue out open"
+    },
+    {
+      "Id": "ArtMeshTongue",
+      "Name": "tongue out closed"
+    },
+    {
+      "Id": "ArtMeshMouthOpen",
+      "Name": "mouth open lip upper"
+    },
+    {
+      "Id": "ArtMeshNose",
+      "Name": "nose"
+    },
+    {
+      "Id": "ArtMeshEyebrowR",
+      "Name": "eyebrow-r"
+    },
+    {
+      "Id": "ArtMeshEyebrowL",
+      "Name": "eyebrow-l"
+    },
+    {
+      "Id": "ArtMeshLipMask",
+      "Name": "lip mask"
+    },
+    {
+      "Id": "TongueApproved_LipLower",
+      "Name": "TongueApproved_LipLower"
+    },
+    {
+      "Id": "TongueApproved_LipUpper",
+      "Name": "TongueApproved_LipUpper"
+    },
+    {
+      "Id": "FunnelMaterial_LipEdgeDriver",
+      "Name": "Material alpha spine driver (invisible)"
+    },
+    {
+      "Id": "MaterialTeeth_LowerPlateA",
+      "Name": "GPT source plate - material construction A"
+    },
+    {
+      "Id": "MaterialTeeth_UpperPlateA",
+      "Name": "GPT source plate - material construction A"
+    },
+    {
+      "Id": "NaiEyePupilR",
+      "Name": "Eye R Pupil"
+    },
+    {
+      "Id": "NaiEyeMainHighlightR",
+      "Name": "Eye R Main highlight"
+    },
+    {
+      "Id": "NaiEyeSecondaryHighlightR",
+      "Name": "Eye R Secondary highlight"
+    },
+    {
+      "Id": "NaiEyePupilL",
+      "Name": "Eye L Pupil"
+    },
+    {
+      "Id": "NaiEyeMainHighlightL",
+      "Name": "Eye L Main highlight"
+    },
+    {
+      "Id": "NaiEyeSecondaryHighlightL",
+      "Name": "Eye L Secondary highlight"
+    },
+    {
+      "Id": "NaiEyeHeartPupilR",
+      "Name": "爱心瞳孔R"
+    },
+    {
+      "Id": "NaiEyeHeartPupilL",
+      "Name": "爱心瞳孔L"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_00",
+      "Name": "NaiReceiverShadow_Center_00"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_00",
+      "Name": "NaiReceiverShadow_SideR_00"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_00",
+      "Name": "NaiReceiverShadow_SideL_00"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_10",
+      "Name": "NaiReceiverShadow_Center_10"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_10",
+      "Name": "NaiReceiverShadow_SideR_10"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_10",
+      "Name": "NaiReceiverShadow_SideL_10"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_20",
+      "Name": "NaiReceiverShadow_Center_20"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_20",
+      "Name": "NaiReceiverShadow_SideR_20"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_20",
+      "Name": "NaiReceiverShadow_SideL_20"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_01",
+      "Name": "NaiReceiverShadow_Center_01"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_01",
+      "Name": "NaiReceiverShadow_SideR_01"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_01",
+      "Name": "NaiReceiverShadow_SideL_01"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_11",
+      "Name": "NaiReceiverShadow_Center_11"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_11",
+      "Name": "NaiReceiverShadow_SideR_11"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_11",
+      "Name": "NaiReceiverShadow_SideL_11"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_21",
+      "Name": "NaiReceiverShadow_Center_21"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_21",
+      "Name": "NaiReceiverShadow_SideR_21"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_21",
+      "Name": "NaiReceiverShadow_SideL_21"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_02",
+      "Name": "NaiReceiverShadow_Center_02"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_02",
+      "Name": "NaiReceiverShadow_SideR_02"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_02",
+      "Name": "NaiReceiverShadow_SideL_02"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_12",
+      "Name": "NaiReceiverShadow_Center_12"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_12",
+      "Name": "NaiReceiverShadow_SideR_12"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_12",
+      "Name": "NaiReceiverShadow_SideL_12"
+    },
+    {
+      "Id": "NaiReceiverShadow_Center_22",
+      "Name": "NaiReceiverShadow_Center_22"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideR_22",
+      "Name": "NaiReceiverShadow_SideR_22"
+    },
+    {
+      "Id": "NaiReceiverShadow_SideL_22",
+      "Name": "NaiReceiverShadow_SideL_22"
+    },
+    {
+      "Id": "FaceOverlay_Disdain",
+      "Name": "上脸阴影效果层"
+    }
+  ]
+}
