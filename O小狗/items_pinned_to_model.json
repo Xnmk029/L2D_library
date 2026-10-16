@@ -1,0 +1,246 @@
+{
+    "FileMetadata": {
+        "LastSavedVTubeStudioVersion": "1.35.10",
+        "LastSavedPlatform": "Steam",
+        "LastSavedDateUTC": "Wednesday, 07 October 2026, 02:16:25",
+        "LastSavedDateLocalTime": "Wednesday, 07 October 2026, 10:16:25",
+        "LastSavedDateUnixMillisecondTimestamp": "1791339385816",
+        "TotalSaveCount": 1
+    },
+    "SceneName": "",
+    "SceneGroupName": "",
+    "SceneModel": "",
+    "SceneID": "",
+    "Items": [
+        {
+            "VNetJustBorrowedFrom": 0,
+            "VNetJustBorrowedFromItemID": -1,
+            "ItemName": "铁盆",
+            "ItemObjectInScene": {
+                "instanceID": -887680
+            },
+            "ItemFileName": "铁盆",
+            "ItemInstanceUUID": "8800c23c4e0948a1a9d99f886f165425",
+            "Selected": true,
+            "TrackingModel": true,
+            "IsAnimated": false,
+            "IsVideo": false,
+            "IsModel": true,
+            "IsWeb": false,
+            "IsCensored": false,
+            "IsFlipped": false,
+            "IsLocked": true,
+            "Smoothing": 0.0,
+            "Order": 1,
+            "FPS": -1.0,
+            "IsPinned": true,
+            "PinnedTo": "ArtMesh",
+            "PinnedModel_Live2D": "O小狗",
+            "PinnedModel_VTS": "O小狗",
+            "PinnedModel_InternalID": "9a1776184b2143cab8fa47639d76244b",
+            "PinnedVertexIDs": "287 288 83 82 180 84",
+            "PinnedVertexPositions": [
+                {
+                    "x": 0.07678259909152985,
+                    "y": 0.28212016820907595,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.11695285886526108,
+                    "y": 0.2864375114440918,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.08494233340024948,
+                    "y": 0.2325146198272705,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.09432746469974518,
+                    "y": 0.2326652705669403,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.1045713871717453,
+                    "y": 0.2337670475244522,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.07557202130556107,
+                    "y": 0.23200128972530366,
+                    "z": 0.0
+                }
+            ],
+            "PinnedVertexCenterOffset": {
+                "x": -0.003449767827987671,
+                "y": 0.020594224333763124,
+                "z": 0.0
+            },
+            "Size": 0.09746939688920975,
+            "ModelScaleMultiplier": 0.011453462764620781,
+            "Rotation": -349.230712890625,
+            "Position": {
+                "x": 0.10535028576850891,
+                "y": 0.2536538243293762,
+                "z": 0.0
+            },
+            "Group": "",
+            "Scene": "",
+            "AssetType": 6,
+            "FromWorkshop": false,
+            "FromHotkey": false,
+            "FromAPI": false,
+            "FadeTime": 0.5,
+            "Plugin": "",
+            "WebItemURL": "",
+            "WebItemUseCustomCSS": false,
+            "WebItemCustomCSS": "body {\n    background-color: rgba(0, 0, 0, 0);\n    margin: 0px auto;\n    overflow: hidden;\n}",
+            "WebItemZoomPercent": 100,
+            "WebItemAlphaMultiplier": 1.0,
+            "WebItemCropLeftRightTopBottom": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "WebItemSizeInUnityUnits": {
+                "x": 0.6000000238418579,
+                "y": 0.30000001192092898
+            },
+            "WebItemSizeInPixels": {
+                "x": 1024,
+                "y": 576
+            },
+            "WebItemMuted": false,
+            "WebItemAllowLocalURLs": false,
+            "WebItemAllowTransparentBackground": true,
+            "WebItemInteractable": true,
+            "WebItemScrollSensitivity": 0.4000000059604645,
+            "WithinModelPin_On": false,
+            "WithinModelPin_BackOn": false,
+            "WithinModelPin_Layer": -1,
+            "WithinModelPin_ArtMeshID": "<<<LAYER_SPECIAL_TOP>>>",
+            "WithinModelPin_ArtMeshIDBackLayers": "<<<LAYER_SPECIAL_BOTTOM>>>",
+            "WithinModelPin_DoNotPinToLayersAboveItem": true,
+            "WithinModelPin_SpecificPinLayer_On": false,
+            "WithinModelPin_SpecificPinLayer": "",
+            "WithinModelPin_ShowFrontBack": false,
+            "WithinModelPin_SplitLive2DItemAt": "ArtMesh3"
+        },
+        {
+            "VNetJustBorrowedFrom": 0,
+            "VNetJustBorrowedFromItemID": -1,
+            "ItemName": "O小狗",
+            "ItemObjectInScene": {
+                "instanceID": -943674
+            },
+            "ItemFileName": "O小狗",
+            "ItemInstanceUUID": "bfe518dd8b2642088b369e397de80cd8",
+            "Selected": true,
+            "TrackingModel": true,
+            "IsAnimated": false,
+            "IsVideo": false,
+            "IsModel": true,
+            "IsWeb": false,
+            "IsCensored": false,
+            "IsFlipped": false,
+            "IsLocked": false,
+            "Smoothing": 0.0,
+            "Order": 2,
+            "FPS": -1.0,
+            "IsPinned": true,
+            "PinnedTo": "ArtMesh",
+            "PinnedModel_Live2D": "O小狗",
+            "PinnedModel_VTS": "O小狗",
+            "PinnedModel_InternalID": "9a1776184b2143cab8fa47639d76244b",
+            "PinnedVertexIDs": "847 785 273 279 786 274",
+            "PinnedVertexPositions": [
+                {
+                    "x": -0.16774128377437592,
+                    "y": -0.04226865619421005,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.22453051805496217,
+                    "y": -0.0013354355469346047,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.14695459604263307,
+                    "y": 0.06897223740816117,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.21368694305419923,
+                    "y": 0.08339305222034455,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.2251031994819641,
+                    "y": -0.05566927790641785,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.07593047618865967,
+                    "y": 0.018324386328458787,
+                    "z": 0.0
+                }
+            ],
+            "PinnedVertexCenterOffset": {
+                "x": 0.006799429655075073,
+                "y": -0.0016568824648857117,
+                "z": 0.0
+            },
+            "Size": 0.10308116674423218,
+            "ModelScaleMultiplier": 0.011453462764620781,
+            "Rotation": -359.6672668457031,
+            "Position": {
+                "x": -0.16922853887081147,
+                "y": 0.006509901024401188,
+                "z": 0.0
+            },
+            "Group": "",
+            "Scene": "",
+            "AssetType": 6,
+            "FromWorkshop": false,
+            "FromHotkey": false,
+            "FromAPI": false,
+            "FadeTime": 0.5,
+            "Plugin": "",
+            "WebItemURL": "",
+            "WebItemUseCustomCSS": false,
+            "WebItemCustomCSS": "body {\n    background-color: rgba(0, 0, 0, 0);\n    margin: 0px auto;\n    overflow: hidden;\n}",
+            "WebItemZoomPercent": 100,
+            "WebItemAlphaMultiplier": 1.0,
+            "WebItemCropLeftRightTopBottom": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "WebItemSizeInUnityUnits": {
+                "x": 0.6000000238418579,
+                "y": 0.30000001192092898
+            },
+            "WebItemSizeInPixels": {
+                "x": 1024,
+                "y": 576
+            },
+            "WebItemMuted": false,
+            "WebItemAllowLocalURLs": false,
+            "WebItemAllowTransparentBackground": true,
+            "WebItemInteractable": true,
+            "WebItemScrollSensitivity": 0.4000000059604645,
+            "WithinModelPin_On": true,
+            "WithinModelPin_BackOn": false,
+            "WithinModelPin_Layer": -1,
+            "WithinModelPin_ArtMeshID": "ArtMesh165",
+            "WithinModelPin_ArtMeshIDBackLayers": "<<<LAYER_SPECIAL_BOTTOM>>>",
+            "WithinModelPin_DoNotPinToLayersAboveItem": false,
+            "WithinModelPin_SpecificPinLayer_On": false,
+            "WithinModelPin_SpecificPinLayer": "",
+            "WithinModelPin_ShowFrontBack": false,
+            "WithinModelPin_SplitLive2DItemAt": "ArtMesh2"
+        }
+    ]
+}

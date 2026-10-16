@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "O小狗.moc3",
+		"Textures": [
+			"O小狗.1024/texture_00.png"
+		],
+		"Physics": "O小狗.physics3.json",
+		"DisplayInfo": "O小狗.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

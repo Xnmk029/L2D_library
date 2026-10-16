@@ -1,0 +1,161 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "水滴开关"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "吐舌"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼 开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼 微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼 开闭"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼 微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉 上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉 上下"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴 变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴 开闭"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转 X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "身体旋转 Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "身体旋转 Z"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "收缩"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "全体X"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "全体y"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "水滴X"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "水滴Y"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "水滴Z"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "水滴物理X"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "水滴物理Y"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part3",
+			"Name": "刚的门.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part",
+			"Name": "组 2 副本"
+		},
+		{
+			"Id": "Part2",
+			"Name": "组 2 副本"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		]
+	]
+}

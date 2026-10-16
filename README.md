@@ -15,9 +15,9 @@ Live2D 模型、VTube Studio 运行资源与纹理实验集
 
 ## 项目介绍
 
-L2D Library 收录奶鲸 V1、俱往矣铁盆鲸鱼和铁盆三个模型目录，保留模型二进制、纹理、物理、VTube Studio 配置及随包资料，方便下载、使用和版本归档。
+L2D Library 收录奶鲸 V1、俱往矣铁盆鲸鱼、铁盆、O小狗和刚的门五个模型目录，保留模型二进制、纹理、物理、VTube Studio 配置及随包资料，方便下载、使用和版本归档。
 
-奶鲸 V1 提供完整运行包及表情、动作和 VBridger 配置；俱往矣铁盆鲸鱼附带程序化和 ImageGen 像素化纹理；铁盆作为独立 Live2D 模型保存。
+奶鲸 V1 提供完整运行包及表情、动作和 VBridger 配置；俱往矣铁盆鲸鱼附带程序化和 ImageGen 像素化纹理；铁盆、O小狗和刚的门作为独立 Live2D 模型保存，各含 1 张纹理、物理与 VTS 配置，并附带模型缩略图。
 
 这里收录的是运行资源。奶鲸说明中提及的独立 `.psd2live` 原生工程未包含在本仓库内。
 
@@ -28,8 +28,10 @@ L2D Library 收录奶鲸 V1、俱往矣铁盆鲸鱼和铁盆三个模型目录�
 | 奶鲸 V1 | [NaiJing_V1_VTS_Full_20261014](NaiJing_V1_VTS_Full_20261014/) | `NaiJing_V1_Full_20261014/psd2live-preview.model3.json` | 27 张引用纹理、44 份表情、4 份动作文件、物理与 VBridger 配置 |
 | 俱往矣铁盆鲸鱼 | [俱往矣铁盆鲸鱼](俱往矣铁盆鲸鱼/) | `俱往矣鲸鱼.model3.json` | 2 张默认纹理、物理、VTS 配置、表情文件及像素化纹理实验 |
 | 铁盆 | [铁盆](铁盆/) | `铁盆.model3.json` | 独立模型、1 张纹理、物理及 VTS 配置 |
+| O小狗 | [O小狗](O小狗/) | `O小狗.model3.json` | 独立模型、1 张纹理、1 份表情、物理、VTS 配置与模型缩略图 |
+| 刚的门 | [刚的门](刚的门/) | `刚的门.model3.json` | 独立模型、1 张纹理、2 份表情、物理、VTS 配置与模型缩略图 |
 
-三个目录按 2026-10-14 的本地文件快照收录，共 134 个文件，约 192 MiB。奶鲸包的详细版本与文件清单见 [VERSION_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/VERSION_MANIFEST.json) 和 [RUNTIME_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/RUNTIME_MANIFEST.json)。
+原有三个目录按 2026-10-14 的本地文件快照收录，O小狗与刚的门按 2026-10-16 的快照收录，合计 153 个文件，约 196 MiB。奶鲸包的详细版本与文件清单见 [VERSION_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/VERSION_MANIFEST.json) 和 [RUNTIME_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/RUNTIME_MANIFEST.json)。
 
 ## 获取模型
 
@@ -77,10 +79,12 @@ Windows Steam 版的目录结构为：
 | 奶鲸 V1 | `NaiJing_V1_VTS_Full_20261014/NaiJing_V1_Full_20261014` |
 | 俱往矣铁盆鲸鱼 | `俱往矣铁盆鲸鱼` |
 | 铁盆 | `铁盆` |
+| O小狗 | `O小狗` |
+| 刚的门 | `刚的门` |
 
 奶鲸的外层目录是交付包，模型入口位于内层 `NaiJing_V1_Full_20261014`。复制时保留内层目录及全部资源。
 
-例如，将三个模型安装到 D 盘的 VTube Studio，在本仓库根目录执行以下 PowerShell 命令：
+例如，将全部模型安装到 D 盘的 VTube Studio，在本仓库根目录执行以下 PowerShell 命令：
 
 ```powershell
 $vtsModels = 'D:\SteamLibrary\steamapps\common\VTube Studio\VTube Studio_Data\StreamingAssets\Live2DModels'
@@ -88,6 +92,8 @@ $vtsModels = 'D:\SteamLibrary\steamapps\common\VTube Studio\VTube Studio_Data\St
 Copy-Item -LiteralPath '.\NaiJing_V1_VTS_Full_20261014\NaiJing_V1_Full_20261014' -Destination $vtsModels -Recurse
 Copy-Item -LiteralPath '.\俱往矣铁盆鲸鱼' -Destination $vtsModels -Recurse
 Copy-Item -LiteralPath '.\铁盆' -Destination $vtsModels -Recurse
+Copy-Item -LiteralPath '.\O小狗' -Destination $vtsModels -Recurse
+Copy-Item -LiteralPath '.\刚的门' -Destination $vtsModels -Recurse
 ```
 
 若已安装同名模型，先备份旧模型目录和自定义设置，再安装更新。奶鲸包保留原 ModelID，避免同时安装多个使用该 ModelID 的副本。
@@ -170,10 +176,18 @@ L2D_library/
 │   ├── 俱往矣鲸鱼.model3.json
 │   ├── 俱往矣鲸鱼.moc3
 │   └── 俱往矣鲸鱼.1024/
-└── 铁盆/
-    ├── 铁盆.model3.json
-    ├── 铁盆.moc3
-    └── 铁盆.1024/
+├── 铁盆/
+│   ├── 铁盆.model3.json
+│   ├── 铁盆.moc3
+│   └── 铁盆.1024/
+├── O小狗/
+│   ├── O小狗.model3.json
+│   ├── O小狗.moc3
+│   └── O小狗.1024/
+└── 刚的门/
+    ├── 刚的门.model3.json
+    ├── 刚的门.moc3
+    └── 刚的门.2048/
 ```
 
 上图展示主要入口；各模型的物理、显示信息、VTS 设置和其他随附文件保留在对应目录中。
