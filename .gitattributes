@@ -3,6 +3,7 @@ NaiJing_V1_VTS_Full_20261014/** -text
 铁盆/** -text
 O小狗/** -text
 刚的门/** -text
+Cubism工程/** -text
 *.moc3 filter=lfs diff=lfs merge=lfs -text
 README.md text eol=lf
 .gitattributes text eol=lf

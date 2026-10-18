@@ -2,14 +2,14 @@
 
 # L2D Library
 
-Live2D 模型、VTube Studio 运行资源与纹理实验集
+Live2D 模型、VTube Studio 运行资源、Cubism 工程与纹理实验集
 
 [![Live2D](https://img.shields.io/badge/Live2D-moc3-2563EB?style=flat-square)](#模型目录)
 [![VTube Studio](https://img.shields.io/badge/VTube_Studio-Runtime-475569?style=flat-square)](#安装到-vtube-studio)
 [![Git LFS](https://img.shields.io/badge/Storage-Git_LFS-334155?style=flat-square)](#获取模型)
 [![License](https://img.shields.io/badge/License-GPL--3.0-64748B?style=flat-square)](LICENSE)
 
-[模型目录](#模型目录) · [获取模型](#获取模型) · [安装使用](#安装到-vtube-studio) · [纹理实验](#像素化纹理) · [问题反馈](https://github.com/Xnmk029/L2D_library/issues)
+[模型目录](#模型目录) · [工程源文件](#cubism-工程源文件) · [获取模型](#获取模型) · [安装使用](#安装到-vtube-studio) · [纹理实验](#像素化纹理) · [问题反馈](https://github.com/Xnmk029/L2D_library/issues)
 
 </div>
 
@@ -19,7 +19,7 @@ L2D Library 收录奶鲸 V1、俱往矣铁盆鲸鱼、铁盆、O小狗和刚的�
 
 奶鲸 V1 提供完整运行包及表情、动作和 VBridger 配置；俱往矣铁盆鲸鱼附带程序化和 ImageGen 像素化纹理；铁盆、O小狗和刚的门作为独立 Live2D 模型保存，各含 1 张纹理、物理与 VTS 配置，并附带模型缩略图。
 
-这里收录的是运行资源。奶鲸说明中提及的独立 `.psd2live` 原生工程未包含在本仓库内。
+这里收录的是运行资源；四个模型的 Cubism 编辑工程另见 [Cubism 工程源文件](#cubism-工程源文件)。奶鲸说明中提及的独立 `.psd2live` 原生工程未包含在本仓库内。
 
 ## 模型目录
 
@@ -31,7 +31,20 @@ L2D Library 收录奶鲸 V1、俱往矣铁盆鲸鱼、铁盆、O小狗和刚的�
 | O小狗 | [O小狗](O小狗/) | `O小狗.model3.json` | 独立模型、1 张纹理、1 份表情、物理、VTS 配置与模型缩略图 |
 | 刚的门 | [刚的门](刚的门/) | `刚的门.model3.json` | 独立模型、1 张纹理、2 份表情、物理、VTS 配置与模型缩略图 |
 
-原有三个目录按 2026-10-14 的本地文件快照收录，O小狗与刚的门按 2026-10-16 的快照收录，合计 153 个文件，约 196 MiB。奶鲸包的详细版本与文件清单见 [VERSION_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/VERSION_MANIFEST.json) 和 [RUNTIME_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/RUNTIME_MANIFEST.json)。
+原有三个目录按 2026-10-14 的本地文件快照收录，O小狗与刚的门按 2026-10-16 的快照收录，Cubism 工程源文件按 2026-10-18 的快照收录。全部合计 159 个文件，约 232 MiB。奶鲸包的详细版本与文件清单见 [VERSION_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/VERSION_MANIFEST.json) 和 [RUNTIME_MANIFEST.json](NaiJing_V1_VTS_Full_20261014/RUNTIME_MANIFEST.json)。
+
+## Cubism 工程源文件
+
+`Cubism工程/` 收录四个模型在 Live2D Cubism Editor 中的编辑工程，供二次修改与重新导出。这些是编辑器工程文件，不能直接放进 VTube Studio，需要先用 Cubism Editor 导出 `.moc3`。
+
+| 工程 | 目录 | 文件 |
+| --- | --- | --- |
+| 铁盆 | [Cubism工程/铁盆](Cubism工程/铁盆/) | `铁盆.cmo3` |
+| 铁盆鲸鱼 | [Cubism工程/铁盆鲸鱼](Cubism工程/铁盆鲸鱼/) | `seethrough_output备份.cmo3` |
+| 刚的门 | [Cubism工程/刚的门](Cubism工程/刚的门/) | `刚的门.cmo3`、`刚的门.psd` |
+| O小狗 | [Cubism工程/O小狗](Cubism工程/O小狗/) | `O小狗.cmo3`、`O小狗.psd` |
+
+铁盆与铁盆鲸鱼只保留 `.cmo3` 工程，未附 PSD。铁盆鲸鱼目录内的工程沿用原始文件名 `seethrough_output备份.cmo3`，未重命名。四个工程合计 6 个文件，约 36 MiB。
 
 ## 获取模型
 
@@ -184,10 +197,21 @@ L2D_library/
 │   ├── O小狗.model3.json
 │   ├── O小狗.moc3
 │   └── O小狗.1024/
-└── 刚的门/
-    ├── 刚的门.model3.json
-    ├── 刚的门.moc3
-    └── 刚的门.2048/
+├── 刚的门/
+│   ├── 刚的门.model3.json
+│   ├── 刚的门.moc3
+│   └── 刚的门.2048/
+└── Cubism工程/
+    ├── 铁盆/
+    │   └── 铁盆.cmo3
+    ├── 铁盆鲸鱼/
+    │   └── seethrough_output备份.cmo3
+    ├── 刚的门/
+    │   ├── 刚的门.cmo3
+    │   └── 刚的门.psd
+    └── O小狗/
+        ├── O小狗.cmo3
+        └── O小狗.psd
 ```
 
 上图展示主要入口；各模型的物理、显示信息、VTS 设置和其他随附文件保留在对应目录中。
